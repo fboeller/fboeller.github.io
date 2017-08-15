@@ -1,0 +1,285 @@
+{
+    "basics": {
+	"name": "Fabian Böller",
+	"label": "Software Engineer",
+	"picture": "",
+	"email": "fabianboeller@googlemail.com",
+	"phone": "",
+	"website": "",
+	"summary": "My name is Fabian Böller, I'm a software developer who is currently doing his masters in computer science at the RWTH Aachen. My objective is to become an excellent developer, who is able to write highly generic software to enable the software community to be more efficient in achieving their goals.",
+	"location": {
+	    "address": "Süsterfeldstraße 30",
+	    "postalCode": "52072",
+	    "city": "Aachen",
+	    "countryCode": "DE",
+	    "region": "NRW"
+	},
+	"profiles": [
+
+	    {
+		"network": "StackOverflow",
+		"username": "fabianboeller",
+		"url": "http://stackoverflow.com/cv/fabianboeller"
+	    },
+
+	    {
+		"network": "GitHub",
+		"username": "MisterFabulous",
+		"url": "https://github.com/MisterFabulous"
+	    },
+
+	    {
+		"network": "LinkedIn",
+		"username": "Fabian Böller",
+		"url": "https://www.linkedin.com/in/fabianboeller/"		
+	    },
+
+	    {
+		"network": "Twitter",
+		"username": "_Mr__Fabulous_",
+		"url": ""
+	    }
+	    
+	]
+    },
+    
+    "work": [
+
+	{
+	    "company": "Programming Languages and Verification Group at RWTH Aachen",
+	    "position": "Scientific Assistant",
+	    "website": "http://verify.rwth-aachen.de/index_e.html",
+	    "startDate": "2017-05-10",
+	    "endDate": "2017-07-09",
+	    "summary": "Before the start of my research for my master's thesis I joined the Programming Languages and Verification Group at the RWTH Aachen. In my position I was introduced to the state of technology and with my supervising PhD students we figured out first ideas for improvements.",
+	    "highlights": []
+	},
+
+	{
+	    "company": "LeiKon",
+	    "position": "Working student",
+	    "website": "https://www.leikon.de/",
+	    "startDate": "2016-10-01",
+	    "summary": "During my master's studies I joined LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As working student I developed multiple web interfaces, scripts for extraction and transformation of data as well as participating at the main software products. As a matter of business discretion I can not give a detailed description of my responsibilities.",
+	    "highlights": []
+	},
+
+	{
+	    "company": "German University of Technology in Oman",
+	    "position": "Teaching Assistant",
+	    "website": "http://www.gutech.edu.om/",
+	    "startDate": "2015-09-01",
+	    "endDate": "2016-01-31",
+	    "summary": "I did an internship at the German University of Technology in Oman for several reasons: To explore an Arabian country and its culture, to experience the teaching aspects of ​a university and to improve my English skills. Additionally I took the opportunity to develop the GUtech websites.",
+	    "highlights": [
+		"Assist in teaching of Programming fundamentals <span class=\"badge\">Python</span><span class=\"badge\">Java</span>",
+		"Assist in teaching of Operating Systems <span class=\"badge\">Arch</span><span class=\"badge\">Bash</span><span class=\"badge\">C</span>",
+		"Development of a library website <span class=\"badge\">JQuery</span><span class=\"badge\">Wordpress</span>",
+		"Development of an internal service website <span class=\"badge\">LDAP</span><span class=\"badge\">Apache</span>"
+	    ]
+	},
+
+	{
+	    "company": "INFORM",
+	    "position": "Mathematical and Technical Software Developer Apprentice",
+	    "website": "https://www.inform-software.de/",
+	    "startDate": "2011-09-01",
+	    "endDate": "2014-09-30",
+	    "summary": "While working at INFORM I was involved in several projects for customers in the package service sector. In my team we developed intelligent software solutions for distribution centers. Those software solutions do not just present data, they analyze the data and give solutions.",
+	    "highlights": [
+		"Application to control hundreds of display computers <span class=\"badge\">WOL</span><span class=\"badge\">JSCH</span><span class=\"badge\">Java</span>",
+		"Framework to specify protocols on top of TCP/IP for automatic building of mocking instances for different applications <span class=\"badge\">Java</span>",
+		"Simulation tool for real time yard management <span class=\"badge\">Java</span>",
+		"Service to control ticket printers at the gate of a yard <span class=\"badge\">DPL</span><span class=\"badge\">Java</span>"
+	    ]
+	}
+	
+    ],
+
+
+    "volunteer": [{
+	"organization": "IT of student accommodation",
+	"website": "https://alania-breslau.de/",
+	"startDate": "2012-02-01",
+	"endDate": "2018-02-01",
+	"summary": "A few months after the start of my bachelor's I joined the IT of our student accomodation. In this position I was responsible for our local servers, our internal and external websites and the introduction of new housemates.",
+	"highlights": [
+	    "Complete renewal of our website <span class=\"badge\">Jekyll</span><span class=\"badge\">Bootstrap</span>",
+	    "Maintenance of our servers <span class=\"badge\">Debian</span>",
+	    "Development of a small <a href=\"http://vps281026.ovh.net/\">job administration tool</a> <span class=\"badge\">React</span><span class=\"badge\">Bootstrap</span><span class=\"badge\">Node</span><span class=\"badge\">Gulp</span>"
+	]
+    }],
+    
+    "education": [
+	{
+	    "institution": "RWTH Aachen",
+	    "area": "Computer Science",
+	    "studyType": "Master",
+	    "startDate": "2014-10-01",
+	    "endDate": "2018-01-31",
+	    "courses": [
+		"Compiler Construction <span class=\"badge\">Yacc</span>",
+		"Functional Programming <span class=\"badge\">Haskell</span>",
+		"Logicprogramming <span class=\"badge\">Prolog</span>",
+		"Satisfiability Checking",
+		"Static Program Analysis",
+		"Infinite Computations and Games",
+		"Generative Software Engineering",
+		"Model-Based Software Engineering",
+		"Software Architectures",
+		"Implementation of Databases",
+		"Artificial Intelligence",
+		"The Logic of Knowledge Bases",
+		"Development of IT Standards",
+		"Column Generation and Branch-and-Price",
+		"Advanced Operations Research"
+	    ]
+	}, {
+	    "institution": "FH Aachen Abt. Jülich",
+	    "area": "Scientific Programming",
+	    "studyType": "Bachelor",
+	    "startDate": "2011-09-01",
+	    "endDate": "2014-09-30",
+	    "gpa": "1.9",
+	    "courses": []
+	}
+
+    ],
+    
+    "publications": [
+	{
+	    "name": "Analysis of the Potential for Improvements in a Yard Management Software",
+	    "releaseDate": "2014-10-01",
+	    "summary": "Bachelor thesis"
+	},
+	{
+	    "name": "On Compositional Safety Verification with Max-SMT",
+	    "releaseDate": "2017-07-20",
+	    "summary": "Seminar paper"
+	}
+    ],
+    
+    "skills": [
+
+	{
+	    "name": "Programming Languages",
+	    "keywords": [
+		"Haskell",
+		"Java",
+		"OCaml",
+		"C++",
+		"Python",
+		"Javascript"
+	    ]
+	},
+
+	{
+	    "name": "Editors",
+	    "keywords": [
+		"Emacs",
+		"Eclipse",
+		"Intellij"
+	    ]
+	},
+
+	{
+	    "name": "Operating Systems",
+	    "keywords": [
+		"Arch",
+		"Debian",
+		"Windows"
+	    ]
+	},
+
+	{
+	    "name": "Version Control",
+	    "keywords": [
+		"Git",
+		"SVN"
+	    ]
+	},
+
+	{
+	    "name": "Databases",
+	    "keywords": [
+		"MySQL",
+		"MongoDB"
+	    ]
+	},
+
+	{
+	    "name": "Software Architectures",
+	    "keywords": [
+		"Functional Programming",
+		"API Design",
+		"Abstraction"
+	    ]
+	},
+
+	{
+	    "name": "Verification",
+	    "keywords": [
+		"Static Analysis",
+		"Compiler Construction",
+		"Complexity"
+	    ]
+	},
+
+	{
+	    "name": "Frontend Web Development",
+	    "keywords": [
+		"Angular",
+		"React",
+		"Bootstrap",
+		"jQuery"
+	    ]
+	},
+
+	{
+	    "name": "Backend Web Development",
+	    "keywords": [
+		"Node.js",
+		"nginx",
+		"Grunt",
+		"Gulp"
+	    ]
+	},
+
+	{
+	    "name": "App Development",
+	    "keywords": [
+		"Ionic",
+		"Angular"
+	    ]
+	},
+
+	{
+	    "name": "DevOps",
+	    "keywords": [
+		"Vagrant",
+		"TravisCI"
+	    ]
+	}
+	
+    ],
+    
+    "languages": [
+	{
+	    "language": "German",
+	    "fluency": "Native speaker"
+	},
+	{
+	    "language": "English",
+	    "fluency": "Fluent speaker"
+	}
+    ],
+    
+    "interests": [
+	{
+	    "name": "Traveling",
+	    "keywords": [
+		"Backpacking"
+	    ]
+	}
+    ]
+}

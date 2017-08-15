@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Fabian Böller</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
+}
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests,
+.job-details,
+.job {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;8d0cba9ff39bd52bf41efb401deb34b4?s&#x3D;200&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Fabian Böller<br><span>Software Engineer</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fa fa-user ico"></i> About</h2>
+            <p>My name is Fabian Böller, I'm a software developer who is currently doing his masters in computer science at the RWTH Aachen. My objective is to become an excellent developer, who is able to write highly generic software to enable the software community to be more efficient in achieving their goals.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Programming Languages and Verification Group at RWTH Aachen</div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;verify.rwth-aachen.de&#x2F;index_e.html" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;verify.rwth-aachen.de&#x2F;index_e.html</a>
+                    </div>
+                    <div class="year">May 2017 – July 2017</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Scientific Assistant</div>
+                    <div class="description">
+                      Before the start of my research for my master's thesis I joined the Programming Languages and Verification Group at the RWTH Aachen. In my position I was introduced to the state of technology and with my supervising PhD students we figured out first ideas for improvements.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">LeiKon</div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.leikon.de&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.leikon.de&#x2F;</a>
+                    </div>
+                    <div class="year">October 2016 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Working student</div>
+                    <div class="description">
+                      During my master's studies I joined LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As working student I developed multiple web interfaces, scripts for extraction and transformation of data as well as participating at the main software products. As a matter of business discretion I can not give a detailed description of my responsibilities.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">German University of Technology in Oman</div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;www.gutech.edu.om&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;www.gutech.edu.om&#x2F;</a>
+                    </div>
+                    <div class="year">September 2015 – January 2016</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Teaching Assistant</div>
+                    <div class="description">
+                      I did an internship at the German University of Technology in Oman for several reasons: To explore an Arabian country and its culture, to experience the teaching aspects of ​a university and to improve my English skills. Additionally I took the opportunity to develop the GUtech websites.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Assist in teaching of Programming fundamentals <span class="badge">Python</span><span class="badge">Java</span></li>
+                        <li class="list-group-item">Assist in teaching of Operating Systems <span class="badge">Arch</span><span class="badge">Bash</span><span class="badge">C</span></li>
+                        <li class="list-group-item">Development of a library website <span class="badge">JQuery</span><span class="badge">Wordpress</span></li>
+                        <li class="list-group-item">Development of an internal service website <span class="badge">LDAP</span><span class="badge">Apache</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">INFORM</div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.inform-software.de&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.inform-software.de&#x2F;</a>
+                    </div>
+                    <div class="year">September 2011 – September 2014</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Mathematical and Technical Software Developer Apprentice</div>
+                    <div class="description">
+                      While working at INFORM I was involved in several projects for customers in the package service sector. In my team we developed intelligent software solutions for distribution centers. Those software solutions do not just present data, they analyze the data and give solutions.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Application to control hundreds of display computers <span class="badge">WOL</span><span class="badge">JSCH</span><span class="badge">Java</span></li>
+                        <li class="list-group-item">Framework to specify protocols on top of TCP/IP for automatic building of mocking instances for different applications <span class="badge">Java</span></li>
+                        <li class="list-group-item">Simulation tool for real time yard management <span class="badge">Java</span></li>
+                        <li class="list-group-item">Service to control ticket printers at the gate of a yard <span class="badge">DPL</span><span class="badge">Java</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- VOLUNTEER -->
+          <div class="box">
+            <h2><i class= "fa fa-group ico"></i> Volunteer</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">IT of student accommodation</div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;alania-breslau.de&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;alania-breslau.de&#x2F;</a>
+                    </div>
+                    <div class="year">February 2012 – February 2018</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-11 pull-right">
+                    <div class="profession"></div>
+                    <div class="description">
+                      A few months after the start of my bachelor's I joined the IT of our student accomodation. In this position I was responsible for our local servers, our internal and external websites and the introduction of new housemates.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Complete renewal of our website <span class="badge">Jekyll</span><span class="badge">Bootstrap</span></li>
+                        <li class="list-group-item">Maintenance of our servers <span class="badge">Debian</span></li>
+                        <li class="list-group-item">Development of a small <a href="http://vps281026.ovh.net/">job administration tool</a> <span class="badge">React</span><span class="badge">Bootstrap</span><span class="badge">Node</span><span class="badge">Gulp</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
+              <div class="title pull-right">Süsterfeldstraße 30</div>
+              <div class="title  pull-right">Aachen, NRW 52072 DE</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:fabianboeller@googlemail.com" target="_blank">fabianboeller@googlemail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-stack-overflow fa-fw"></span></div>
+              <div class="title pull-right">StackOverflow</div>
+              <div class="description pull-right"><a href="http:&#x2F;&#x2F;stackoverflow.com&#x2F;cv&#x2F;fabianboeller" target="_blank">fabianboeller</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
+              <div class="title pull-right">GitHub</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;MisterFabulous" target="_blank">MisterFabulous</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;fabianboeller&#x2F;" target="_blank">Fabian Böller</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">Twitter</div>
+              <div class="description pull-right"><a href="" target="_blank">_Mr__Fabulous_</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fa fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2014 2018 (expected)</div>
+                <div class="description pull-right">
+                  <h3>RWTH Aachen</h3>
+                  <p><i class= "fa fa-graduation-cap ico"></i> Master</p>
+                  <p>Computer Science</p>
+                    <div>Courses</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">Compiler Construction <span class="badge">Yacc</span></li>
+                      <li class="list-group-item">Functional Programming <span class="badge">Haskell</span></li>
+                      <li class="list-group-item">Logicprogramming <span class="badge">Prolog</span></li>
+                      <li class="list-group-item">Satisfiability Checking</li>
+                      <li class="list-group-item">Static Program Analysis</li>
+                      <li class="list-group-item">Infinite Computations and Games</li>
+                      <li class="list-group-item">Generative Software Engineering</li>
+                      <li class="list-group-item">Model-Based Software Engineering</li>
+                      <li class="list-group-item">Software Architectures</li>
+                      <li class="list-group-item">Implementation of Databases</li>
+                      <li class="list-group-item">Artificial Intelligence</li>
+                      <li class="list-group-item">The Logic of Knowledge Bases</li>
+                      <li class="list-group-item">Development of IT Standards</li>
+                      <li class="list-group-item">Column Generation and Branch-and-Price</li>
+                      <li class="list-group-item">Advanced Operations Research</li>
+                    </ul>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2011 2014</div>
+                <div class="description pull-right">
+                  <h3>FH Aachen Abt. Jülich</h3>
+                  <p><i class= "fa fa-graduation-cap ico"></i> Bachelor</p>
+                  <p>Scientific Programming</p>
+                  <p>
+                    GPA: 1.9
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fa fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Programming Languages
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Haskell</span>
+                <span class= "skill badge">Java</span>
+                <span class= "skill badge">OCaml</span>
+                <span class= "skill badge">C++</span>
+                <span class= "skill badge">Python</span>
+                <span class= "skill badge">Javascript</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Editors
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Emacs</span>
+                <span class= "skill badge">Eclipse</span>
+                <span class= "skill badge">Intellij</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Operating Systems
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Arch</span>
+                <span class= "skill badge">Debian</span>
+                <span class= "skill badge">Windows</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Version Control
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Git</span>
+                <span class= "skill badge">SVN</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Databases
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">MySQL</span>
+                <span class= "skill badge">MongoDB</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Software Architectures
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Functional Programming</span>
+                <span class= "skill badge">API Design</span>
+                <span class= "skill badge">Abstraction</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Verification
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Static Analysis</span>
+                <span class= "skill badge">Compiler Construction</span>
+                <span class= "skill badge">Complexity</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Frontend Web Development
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Angular</span>
+                <span class= "skill badge">React</span>
+                <span class= "skill badge">Bootstrap</span>
+                <span class= "skill badge">jQuery</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Backend Web Development
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Node.js</span>
+                <span class= "skill badge">nginx</span>
+                <span class= "skill badge">Grunt</span>
+                <span class= "skill badge">Gulp</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  App Development
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Ionic</span>
+                <span class= "skill badge">Angular</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  DevOps
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Vagrant</span>
+                <span class= "skill badge">TravisCI</span>
+              </div>
+            </div>
+          </div>
+          <!-- PUBLICATIONS -->
+          <div class="box">
+            <h2><i class="fa fa-book ico"></i> Publications</h2>
+            <div class="publication panel panel-default">
+              <div class="panel-heading">
+                <div class="name panel-title">Analysis of the Potential for Improvements in a Yard Management Software</div>
+              </div>
+              <div class="panel-body">
+                <div class="year">01 October  2014</div>
+                <p>Bachelor thesis</p>
+              </div>
+            </div>
+            <div class="publication panel panel-default">
+              <div class="panel-heading">
+                <div class="name panel-title">On Compositional Safety Verification with Max-SMT</div>
+              </div>
+              <div class="panel-body">
+                <div class="year">20 July  2017</div>
+                <p>Seminar paper</p>
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box">
+            <h2><i class="fa fa-language ico"></i> Languages</h2>
+            <ul class="list-group">
+              <li class=" list-group-item">German<span class="skill badge pull-right">Native speaker</span></li>
+              <li class=" list-group-item">English<span class="skill badge pull-right">Fluent speaker</span></li>
+            </ul>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2><i class="fa fa-heart ico"></i> Interests</h2>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Traveling
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Backpacking</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
