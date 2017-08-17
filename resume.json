@@ -71,7 +71,7 @@
 	    "highlights": [
 		"Assist in teaching of Programming fundamentals <span class=\"badge\">Python</span><span class=\"badge\">Java</span>",
 		"Assist in teaching of Operating Systems <span class=\"badge\">Arch</span><span class=\"badge\">Bash</span><span class=\"badge\">C</span>",
-		"Development of a library website <span class=\"badge\">JQuery</span><span class=\"badge\">Wordpress</span>",
+		"Development of a simple <a href=\"http://lib.gutech.edu.om\">library website</a> <span class=\"badge\">JQuery</span><span class=\"badge\">Wordpress</span>",
 		"Development of an internal service website <span class=\"badge\">LDAP</span><span class=\"badge\">Apache</span>"
 	    ]
 	},
@@ -96,12 +96,11 @@
 
     "volunteer": [{
 	"organization": "IT of student accommodation",
-	"website": "https://alania-breslau.de/",
 	"startDate": "2012-02-01",
 	"endDate": "2018-02-01",
 	"summary": "A few months after the start of my bachelor's I joined the IT of our student accomodation. In this position I was responsible for our local servers, our internal and external websites and the introduction of new housemates.",
 	"highlights": [
-	    "Complete renewal of our website <span class=\"badge\">Jekyll</span><span class=\"badge\">Bootstrap</span>",
+	    "Complete renewal of our <a href=\"https://alania-breslau.de/\">website</a> <span class=\"badge\">Jekyll</span><span class=\"badge\">Bootstrap</span>",
 	    "Maintenance of our servers <span class=\"badge\">Debian</span>",
 	    "Development of a small <a href=\"http://vps281026.ovh.net/\">job administration tool</a> <span class=\"badge\">React</span><span class=\"badge\">Bootstrap</span><span class=\"badge\">Node</span><span class=\"badge\">Gulp</span>"
 	]
