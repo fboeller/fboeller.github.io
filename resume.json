@@ -4,7 +4,7 @@
 	"label": "Software Engineer",
 	"picture": "",
 	"website": "https://fboeller.github.io",
-	"summary": "My name is Fabian Böller, I'm a software developer who is currently doing his masters in computer science at the RWTH Aachen. My objective is to become an excellent developer, who is able to write highly generic software to enable the software community to be more efficient in achieving their goals.",
+	"summary": "My name is Fabian Böller, I'm a software developer who is currently writing his master's thesis in computer science at the RWTH Aachen. I will be finished with my master's in January 2018.<br /> My long-term objective is to become an excellent developer, who is able to write highly generic software to enable the software community to be more efficient in achieving their goals.",
 	"location": {
 	    "postalCode": "52072",
 	    "city": "Aachen",
@@ -48,7 +48,7 @@
 	    "website": "http://verify.rwth-aachen.de/index_e.html",
 	    "startDate": "2017-05-10",
 	    "endDate": "2017-07-09",
-	    "summary": "Before the start of my research for my master's thesis I joined the Programming Languages and Verification Group at the RWTH Aachen. In my position I was introduced to the state of technology and with my supervising PhD students we figured out first ideas for improvements.",
+	    "summary": "Before the start of my research for my master's thesis I joined the Programming Languages and Verification Group at the RWTH Aachen. In my position I was introduced to the state of technology and with my supervising PhD students we figured out first ideas for improvements of their complexity analysis.",
 	    "highlights": []
 	},
 
@@ -57,7 +57,7 @@
 	    "position": "Working student",
 	    "website": "https://www.leikon.de/",
 	    "startDate": "2016-10-01",
-	    "summary": "During my master's studies I joined LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As working student I developed multiple web interfaces, scripts for extraction and transformation of data as well as participating at the main software products. As a matter of business discretion I can not give a detailed description of my responsibilities.",
+	    "summary": "During my master's I joined the company LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As working student I developed multiple web interfaces, scripts for extraction and transformation of data and participated at the main software products. As a matter of business discretion I can not give a detailed description of my responsibilities.",
 	    "highlights": []
 	},
 
@@ -67,7 +67,7 @@
 	    "website": "http://www.gutech.edu.om/",
 	    "startDate": "2015-09-01",
 	    "endDate": "2016-01-31",
-	    "summary": "I did an internship at the German University of Technology in Oman for several reasons: To explore an Arabian country and its culture, to experience the teaching aspects of ​a university and to improve my English skills. Additionally I took the opportunity to develop the GUtech websites.",
+	    "summary": "I did an internship at the German University of Technology in Oman for several reasons: I wanted to explore an Arabian country and its culture, experience the teaching aspects of ​a university and improve my English skills. Additionally I took the opportunity to develop the GUtech websites.",
 	    "highlights": [
 		"Assist in teaching of Programming fundamentals <span class=\"badge\">Python</span><span class=\"badge\">Java</span>",
 		"Assist in teaching of Operating Systems <span class=\"badge\">Arch</span><span class=\"badge\">Bash</span><span class=\"badge\">C</span>",
@@ -117,17 +117,17 @@
 		"Compiler Construction <span class=\"badge\">Yacc</span>",
 		"Functional Programming <span class=\"badge\">Haskell</span>",
 		"Logicprogramming <span class=\"badge\">Prolog</span>",
-		"Satisfiability Checking",
+		"Satisfiability Checking <span class=\"badge\">Z3</span>",
 		"Static Program Analysis",
 		"Infinite Computations and Games",
-		"Generative Software Engineering",
-		"Model-Based Software Engineering",
-		"Software Architectures",
+		"Generative Software Engineering <span class=\"badge\">Java</span>",
+		"Model-Based Software Engineering <span class=\"badge\">Java</span>",
+		"Software Architectures <span class=\"badge\">Ada</span>",
 		"Implementation of Databases",
 		"Artificial Intelligence",
 		"The Logic of Knowledge Bases",
 		"Development of IT Standards",
-		"Column Generation and Branch-and-Price",
+		"Column Generation and Branch-and-Price <span class=\"badge\">SCIP</span>",
 		"Advanced Operations Research"
 	    ]
 	}, {
@@ -146,12 +146,13 @@
 	{
 	    "name": "Analysis of the Potential for Improvements in a Yard Management Software",
 	    "releaseDate": "2014-10-01",
-	    "summary": "Bachelor thesis"
+	    "summary": "Bachelor thesis at INFORM (confidential)"
 	},
 	{
 	    "name": "On Compositional Safety Verification with Max-SMT",
 	    "releaseDate": "2017-07-20",
-	    "summary": "Seminar paper"
+	    "summary": "Seminar paper",
+	    "website": "https://github.com/fboeller/paper-compositional-safety-verification"
 	}
     ],
     
