@@ -4,7 +4,7 @@
 	"label": "Software Engineer",
 	"picture": "formal_square_320.jpg",
 	"website": "https://fboeller.github.io",
-	"summary": "My name is Fabian Böller, I'm a software developer who is currently writing his master's thesis in computer science at the RWTH Aachen. I will be finished with my master's in January 2018.<br /> My long-term objective is to become an excellent developer, who is able to write highly generic software to enable the software community to be more efficient in achieving their goals.",
+	"summary": "My name is Fabian Böller, I'm a software developer who is currently writing his master's thesis in computer science at RWTH Aachen University. I will be finished with my master's in January 2018.<br /> My long-term objective is to become an excellent developer who is able to write highly generic software to enable the software community to be more efficient in achieving their goals.",
 	"location": {
 	    "postalCode": "52072",
 	    "city": "Aachen",
@@ -29,12 +29,6 @@
 		"network": "LinkedIn",
 		"username": "Fabian Böller",
 		"url": "https://www.linkedin.com/in/fabianboeller/"		
-	    },
-
-	    {
-		"network": "Twitter",
-		"username": "_Mr__Fabulous_",
-		"url": ""
 	    }
 	    
 	]
@@ -43,12 +37,12 @@
     "work": [
 
 	{
-	    "company": "Programming Languages and Verification Group at RWTH Aachen",
+	    "company": "Programming Languages and Verification Group at RWTH Aachen University",
 	    "position": "Scientific Assistant",
 	    "website": "http://verify.rwth-aachen.de/index_e.html",
 	    "startDate": "2017-05-10",
 	    "endDate": "2017-07-09",
-	    "summary": "Before the start of my research for my master's thesis I joined the Programming Languages and Verification Group at the RWTH Aachen. In my position I was introduced to the state of technology and with my supervising PhD students we figured out first ideas for improvements of their complexity analysis.",
+	    "summary": "Before the start of my research for my master's thesis, I joined the Programming Languages and Verification Group at the RWTH Aachen University. Working in a team with PhD students, I was introduced to the current state of technology and we created first ideas for improvements of their complexity analysis.",
 	    "highlights": []
 	},
 
@@ -57,7 +51,7 @@
 	    "position": "Working student",
 	    "website": "https://www.leikon.de/",
 	    "startDate": "2016-10-01",
-	    "summary": "During my master's I joined the company LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As working student I developed multiple web interfaces, scripts for extraction and transformation of data and participated at the main software products. As a matter of business discretion I can not give a detailed description of my responsibilities.",
+	    "summary": "During my master's I joined the company LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As a working student I developed multiple web interfaces, scripts for extraction and transformation of data and participated in the development of the main software products.",
 	    "highlights": []
 	},
 
@@ -67,7 +61,7 @@
 	    "website": "http://www.gutech.edu.om/",
 	    "startDate": "2015-09-01",
 	    "endDate": "2016-01-31",
-	    "summary": "I did an internship at the German University of Technology in Oman for several reasons: I wanted to explore an Arabian country and its culture, experience the teaching aspects of ​a university and improve my English skills. Additionally I took the opportunity to develop the GUtech websites.",
+	    "summary": "I did an internship at the German University of Technology in Oman for several reasons: I wanted to explore an Arabian country and its culture, experience the teaching aspects of ​a university and improve my English skills. Additionally, I took the opportunity to develop the GUtech websites.",
 	    "highlights": [
 		"Assist in teaching of Programming fundamentals <span class=\"badge\">Python</span><span class=\"badge\">Java</span>",
 		"Assist in teaching of Operating Systems <span class=\"badge\">Arch</span><span class=\"badge\">Bash</span><span class=\"badge\">C</span>",
@@ -82,7 +76,7 @@
 	    "website": "https://www.inform-software.de/",
 	    "startDate": "2011-09-01",
 	    "endDate": "2014-09-30",
-	    "summary": "While working at INFORM I was involved in several projects for customers in the package service sector. In my team we developed intelligent software solutions for distribution centers. Those software solutions do not just present data, they analyze the data and give solutions.",
+	    "summary": "While working at INFORM, I was involved in several projects for customers in the package service sector. In my team we developed intelligent software solutions for distribution centers. Those software solutions do not just present data, they analyze the data and give solutions.",
 	    "highlights": [
 		"Application to control hundreds of display computers <span class=\"badge\">WOL</span><span class=\"badge\">JSCH</span><span class=\"badge\">Java</span>",
 		"Framework to specify protocols on top of TCP/IP for automatic building of mocking instances for different applications <span class=\"badge\">Java</span>",
@@ -98,7 +92,7 @@
 	"organization": "IT of student accommodation",
 	"startDate": "2012-02-01",
 	"endDate": "2018-02-01",
-	"summary": "A few months after the start of my bachelor's I joined the IT of our student accomodation. In this position I was responsible for our local servers, our internal and external websites and the introduction of new housemates.",
+	"summary": "A few months after the start of my bachelor's I joined the IT of our student accommodation. In this position I was responsible for our local servers, our internal and external websites and the introduction of new housemates.",
 	"highlights": [
 	    "Complete renewal of our <a href=\"https://alania-breslau.de/\">website</a> <span class=\"badge\">Jekyll</span><span class=\"badge\">Bootstrap</span>",
 	    "Maintenance of our servers <span class=\"badge\">Debian</span>",
@@ -112,7 +106,7 @@
 	    "area": "Computer Science",
 	    "studyType": "Master",
 	    "startDate": "2014-10-01",
-	    "endDate": "2018-01-31",
+	    "endDate": "2017-12-31",
 	    "courses": [
 		"Compiler Construction <span class=\"badge\">Yacc</span>",
 		"Functional Programming <span class=\"badge\">Haskell</span>",
