@@ -37,21 +37,29 @@
     "work": [
 
 	{
+	    "company": "LeiKon",
+	    "position": "Working student",
+	    "website": "https://www.leikon.de/",
+	    "startDate": "2016-10-01",
+	    "endDate": "2017-10-31",
+	    "summary": "During my master's I joined the company LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As a working student I developed multiple web interfaces, scripts for extraction and transformation of data and participated in the development of the main software products.",
+	    "highlights": [
+		"Web-based visualization software <span class=\"badge\">Chart.js</span><span class=\"badge\">D3</span><span class=\"badge\">AngularJS</span><span class=\"badge\">Grafana</span>",
+		"Eclipse-Plugins <span class=\"badge\">OSGi</span><span class=\"badge\">EMF</span><span class=\"badge\">Java</span>",
+		"Connection to a serial bar code scanner <span class=\"badge\">ReactiveX</span><span class=\"badge\">Python</span>",
+		"Data consolidation software <span class=\"badge\">H2</span><span class=\"badge\">Groovy</span>",
+		"Development and supervision of website <span class=\"badge\">Javascript</span><span class=\"badge\">HTML</span>",
+		"Analysis of possible expansions of existing network topologies"
+	    ]
+	},
+
+	{
 	    "company": "Programming Languages and Verification Group at RWTH Aachen University",
 	    "position": "Scientific Assistant",
 	    "website": "http://verify.rwth-aachen.de/index_e.html",
 	    "startDate": "2017-05-10",
 	    "endDate": "2017-07-09",
 	    "summary": "Before the start of my research for my master's thesis, I joined the Programming Languages and Verification Group at the RWTH Aachen University. Working in a team with PhD students, I was introduced to the current state of technology and we created first ideas for improvements of their complexity analysis.",
-	    "highlights": []
-	},
-
-	{
-	    "company": "LeiKon",
-	    "position": "Working student",
-	    "website": "https://www.leikon.de/",
-	    "startDate": "2016-10-01",
-	    "summary": "During my master's I joined the company LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As a working student I developed multiple web interfaces, scripts for extraction and transformation of data and participated in the development of the main software products.",
 	    "highlights": []
 	},
 
