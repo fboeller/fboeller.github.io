@@ -4,7 +4,7 @@
 	"label": "Software Engineer",
 	"picture": "formal_square_320.jpg",
 	"website": "https://fboeller.github.io",
-	"summary": "My name is Fabian Böller, I'm a software developer who is currently writing his master's thesis in computer science at RWTH Aachen University. I will finish with my master's degree in January 2018.<br /> My long-term objective is to become an excellent developer who is able to write highly generic software to enable the software community to be more efficient in achieving their goals.",
+	"summary": "My name is Fabian Böller, I'm a software developer who is currently writing his master's thesis in computer science at RWTH Aachen University. I will finish my master's degree in January 2018.<br /> My long-term objective is to become an excellent developer who is able to write highly generic software to enable the software community to be more efficient in achieving their goals.",
 	"location": {
 	    "postalCode": "52072",
 	    "city": "Aachen",
@@ -42,7 +42,7 @@
 	    "website": "https://www.leikon.de/",
 	    "startDate": "2016-10-01",
 	    "endDate": "2017-10-31",
-	    "summary": "During my master's I joined the company LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As a working student I developed multiple web interfaces, scripts for extraction and transformation of data and participated in the development of the main software products.",
+	    "summary": "During my master's I joined the company LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As a working student, I developed multiple web interfaces, scripts for extraction and transformation of data and participated in the development of the main software products.",
 	    "highlights": [
 		"Web-based visualization software <span class=\"badge\">Chart.js</span><span class=\"badge\">D3</span><span class=\"badge\">AngularJS</span><span class=\"badge\">Grafana</span>",
 		"Eclipse-Plugins <span class=\"badge\">OSGi</span><span class=\"badge\">EMF</span><span class=\"badge\">Java</span>",
@@ -84,7 +84,7 @@
 	    "website": "https://www.inform-software.de/",
 	    "startDate": "2011-09-01",
 	    "endDate": "2014-09-30",
-	    "summary": "While working at INFORM, I was involved in several projects for customers in the package service sector. In my team we developed intelligent software solutions for distribution centers. Those software solutions do not just present data, they analyze the data and give solutions.",
+	    "summary": "While working at INFORM, I was involved in several projects for customers in the package service sector. In my team, we developed intelligent software solutions for distribution centers. Those software solutions do not just present data, they analyze the data and give solutions.",
 	    "highlights": [
 		"Application to control hundreds of display computers <span class=\"badge\">WOL</span><span class=\"badge\">JSCH</span><span class=\"badge\">Java</span>",
 		"Framework to specify protocols on top of TCP/IP for automatic building of mocking instances for different applications <span class=\"badge\">Java</span>",
@@ -100,7 +100,7 @@
 	"organization": "IT of student accommodation",
 	"startDate": "2012-02-01",
 	"endDate": "2018-02-01",
-	"summary": "A few months after the start of my bachelor's I joined the IT of our student accommodation. In this position I was responsible for our local servers, our internal and external websites and the introduction of new housemates.",
+	"summary": "A few months after the start of my bachelor's I joined the IT of our student accommodation. In this position, I was responsible for our local servers, our internal and external websites and the introduction of new housemates.",
 	"highlights": [
 	    "Complete renewal of our <a href=\"https://alania-breslau.de/\">website</a> <span class=\"badge\">Jekyll</span><span class=\"badge\">Bootstrap</span>",
 	    "Maintenance of our servers <span class=\"badge\">Debian</span>",
