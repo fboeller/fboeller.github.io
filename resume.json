@@ -148,13 +148,18 @@
 	{
 	    "name": "Analysis of the Potential for Improvements in a Yard Management Software",
 	    "releaseDate": "2014-10-01",
-	    "summary": "Bachelor thesis at INFORM (confidential)"
+	    "summary": "Bachelor's thesis at INFORM"
 	},
 	{
 	    "name": "On Compositional Safety Verification with Max-SMT",
 	    "releaseDate": "2017-07-20",
 	    "summary": "Seminar paper",
 	    "website": "https://github.com/fboeller/paper-compositional-safety-verification"
+	},
+	{
+	    "name": "Non-Monotonic Bounds for Complexity Analysis of Integer Programs",
+	    "releaseDate": "2018-01-31",
+	    "summary": "Master's thesis at the Programming Languages and Verification Group at RWTH Aachen University"
 	}
     ],
     
