@@ -89,7 +89,7 @@
     "volunteer": [{
 	"organization": "IT of student accommodation",
 	"startDate": "2012-02-01",
-	"endDate": "2018-02-01",
+	"endDate": "2018-01-31",
 	"summary": "A few months after the start of my bachelor's I joined the IT of our student accommodation. In this position, I was responsible for our local servers, our internal and external websites and the introduction of new housemates. Additionally, we developed some useful internal tools on our gogs.",
 	"highlights": [
 	    "Complete renewal of our <a href=\"https://alania-breslau.de/\">website</a> <span class=\"badge\">nginx</span><span class=\"badge\">Jekyll</span><span class=\"badge\">Bootstrap</span>",
@@ -106,7 +106,7 @@
 	    "area": "Computer Science",
 	    "studyType": "Master",
 	    "startDate": "2014-10-01",
-	    "endDate": "2017-12-31",
+	    "endDate": "2018-03-31",
 	    "courses": [
 		"Compiler Construction <span class=\"badge\">Yacc</span>",
 		"Functional Programming <span class=\"badge\">Haskell</span>",
@@ -150,7 +150,7 @@
 	},
 	{
 	    "name": "Non-Monotonic Bounds for Complexity Analysis of Integer Programs",
-	    "releaseDate": "2018-01-31",
+	    "releaseDate": "2018-02-14",
 	    "summary": "Master's thesis at the Programming Languages and Verification Group at RWTH Aachen University"
 	}
     ],
