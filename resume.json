@@ -123,98 +123,71 @@
     ],
     
     "skills": [
-
 	{
 	    "name": "Programming Languages",
 	    "keywords": [
-		"Haskell",
 		"Java",
-		"OCaml",
-		"C++",
-		"Python",
-		"Javascript"
+		"Kotlin",
+		"Typescript",
+		"Haskell"
 	    ]
 	},
-
+	{
+	    "name": "Functional Programming",
+	    "keywords": [
+		"Vavr",
+		"ReactiveX"
+	    ]
+	},
 	{
 	    "name": "Editors",
 	    "keywords": [
-		"Emacs",
-		"Eclipse",
-		"Intellij"
+		"Intellij",
+		"Emacs"
 	    ]
 	},
-
 	{
 	    "name": "Operating Systems",
 	    "keywords": [
-		"Arch",
-		"Debian",
-		"Windows"
+		"Ubuntu",
+		"MacOS",
+		"Arch"
 	    ]
 	},
-
 	{
 	    "name": "Version Control",
 	    "keywords": [
-		"Git",
-		"SVN"
+		"Git"
 	    ]
 	},
-
 	{
 	    "name": "Databases",
 	    "keywords": [
-		"MySQL",
-		"MongoDB"
+		"PostgreSQL",
+		"Elasticsearch"
 	    ]
 	},
-
 	{
-	    "name": "Verification",
-	    "keywords": [
-		"Static Analysis",
-		"Compiler Construction",
-		"Complexity"
-	    ]
-	},
-
-	{
-	    "name": "Frontend Web Development",
+	    "name": "Frontend Development",
 	    "keywords": [
 		"Angular",
-		"React",
-		"Bootstrap",
-		"jQuery"
+		"Bootstrap"
 	    ]
 	},
-
 	{
-	    "name": "Backend Web Development",
+	    "name": "CI & CD",
 	    "keywords": [
-		"Node.js",
-		"nginx",
-		"Grunt",
-		"Gulp"
+		"Github Actions",
+		"Jenkins"
 	    ]
 	},
-
-	{
-	    "name": "App Development",
-	    "keywords": [
-		"Ionic",
-		"Angular"
-	    ]
-	},
-
 	{
 	    "name": "DevOps",
 	    "keywords": [
-		"Vagrant",
-		"TravisCI"
+		"Docker",
+		"Kubernetes"
 	    ]
-	}
-	
+	}	
     ],
     
     "languages": [
