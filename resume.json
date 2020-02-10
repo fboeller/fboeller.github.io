@@ -1,7 +1,7 @@
 {
     "basics": {
 	"name": "Fabian Böller",
-	"label": "Software Engineer",
+	"label": "Senior Software Engineer",
 	"picture": "formal_square_320.jpg",
 	"website": "https://fboeller.github.io",
 	"summary": "I'm a software engineer working in Bonn at LeanIX. I prefer pragmatism over abstractions, correctness over performance and pure functions over stateful objects.",
