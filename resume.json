@@ -12,25 +12,26 @@
 	    "region": "NRW"
 	},
 	"profiles": [
-
-	    {
-		"network": "StackOverflow",
-		"username": "fabianboeller",
-		"url": "http://stackoverflow.com/cv/fabianboeller"
-	    },
-
 	    {
 		"network": "GitHub",
 		"username": "fboeller",
 		"url": "https://github.com/fboeller"
 	    },
-
+	    {
+		"network": "Medium",
+		"username": "fabianboeller",
+		"url": "https://medium.com/@fabianboeller"		
+	    },
 	    {
 		"network": "LinkedIn",
 		"username": "Fabian Böller",
 		"url": "https://www.linkedin.com/in/fabianboeller/"		
+	    },
+	    {
+		"network": "StackOverflow",
+		"username": "fabianboeller",
+		"url": "http://stackoverflow.com/cv/fabianboeller"
 	    }
-	    
 	]
     },
     
