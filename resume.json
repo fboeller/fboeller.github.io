@@ -38,6 +38,18 @@
     "work": [
 
 	{
+	    "company": "LeanIX",
+	    "position": "Senior Software Engineer",
+	    "website": "https://www.leanix.net/en/",
+	    "startDate": "2018-07-01",
+	    "summary": "I am working as a senior software engineer at LeanIX. LeanIX builds software to enable companies to get and collaboratively maintain an overview of their IT landscape.",
+	    "highlights": [
+		"Conception and development of the Integration API <span class=\"badge\">PostgreSQL</span><span class=\"badge\">Kubernetes</span><span class=\"badge\">Vavr</span><span class=\"badge\">Java</span>",
+		"Fullstack development of a search <span class=\"badge\">Angular</span><span class=\"badge\">Elasticsearch</span><span class=\"badge\">Java</span>"
+	    ]
+	},
+	
+	{
 	    "company": "LeiKon",
 	    "position": "Working student",
 	    "website": "https://www.leikon.de/",
