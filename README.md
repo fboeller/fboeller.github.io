@@ -8,7 +8,7 @@ The resume uses JSON Resume (https://jsonresume.org/) to compile an html file fr
 The compiled version uses the theme "kendall".
 To use it, it must be installed globally with npm.
   
-  `npm install -g jsonresume-theme-kendall`
+  `npm install -g resume-cli jsonresume-theme-kendall`
   
 Then the index.html can be generated with
 
