@@ -57,12 +57,9 @@
 	    "endDate": "2017-10-31",
 	    "summary": "During my master's I joined the company LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As a working student, I developed multiple web interfaces, scripts for extraction and transformation of data and participated in the development of the main software products.",
 	    "highlights": [
-		"Web-based visualization software <span class=\"badge\">Chart.js</span><span class=\"badge\">D3</span><span class=\"badge\">AngularJS</span><span class=\"badge\">Grafana</span>",
-		"Eclipse-Plugins <span class=\"badge\">OSGi</span><span class=\"badge\">EMF</span><span class=\"badge\">Java</span>",
-		"Connection to a serial bar code scanner <span class=\"badge\">ReactiveX</span><span class=\"badge\">Python</span>",
-		"Data consolidation software <span class=\"badge\">H2</span><span class=\"badge\">Groovy</span>",
-		"Development and supervision of website <span class=\"badge\">Javascript</span><span class=\"badge\">HTML</span>",
-		"Analysis of possible expansions of existing network topologies"
+		"Web-based visualization software <span class=\"badge\">Angular</span><span class=\"badge\">Grafana</span>",
+		"Eclipse-Plugins <span class=\"badge\">Java</span>",
+		"Connection to a serial bar code scanner <span class=\"badge\">ReactiveX</span><span class=\"badge\">Python</span>"
 	    ]
 	},
 
@@ -75,9 +72,7 @@
 	    "summary": "I did an internship at the German University of Technology in Oman for several reasons: I wanted to explore an Arabian country and its culture, experience the teaching aspects of ​a university and improve my English skills. Additionally, I took the opportunity to develop the GUtech websites.",
 	    "highlights": [
 		"Assist in teaching of Programming fundamentals <span class=\"badge\">Python</span><span class=\"badge\">Java</span>",
-		"Assist in teaching of Operating Systems <span class=\"badge\">Arch</span><span class=\"badge\">Bash</span><span class=\"badge\">C</span>",
-		"Development of a simple <a href=\"http://lib.gutech.edu.om\">library website</a> <span class=\"badge\">JQuery</span><span class=\"badge\">Wordpress</span>",
-		"Development of an internal service website <span class=\"badge\">LDAP</span><span class=\"badge\">Apache</span>"
+		"Assist in teaching of Operating Systems <span class=\"badge\">Arch</span><span class=\"badge\">Bash</span><span class=\"badge\">C</span>"
 	    ]
 	},
 
@@ -89,10 +84,9 @@
 	    "endDate": "2014-09-30",
 	    "summary": "While working at INFORM, I was involved in several projects for customers in the package service sector. In my team, we developed intelligent software solutions for distribution centers. Those software solutions do not just present data, they analyze the data and give solutions.",
 	    "highlights": [
-		"Application to control hundreds of display computers <span class=\"badge\">WOL</span><span class=\"badge\">JSCH</span><span class=\"badge\">Java</span>",
+		"Application to control hundreds of display computers <span class=\"badge\">Java</span>",
 		"Framework to specify protocols on top of TCP/IP for automatic building of mocking instances for different applications <span class=\"badge\">Java</span>",
-		"Simulation tool for real time yard management <span class=\"badge\">Java</span>",
-		"Service to control ticket printers at the gate of a yard <span class=\"badge\">DPL</span><span class=\"badge\">Java</span>"
+		"Simulation tool for real time yard management <span class=\"badge\">Java</span>"
 	    ]
 	}
 	
