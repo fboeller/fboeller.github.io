@@ -109,23 +109,7 @@
 	    "startDate": "2014-10-01",
 	    "endDate": "2018-02-14",
 	    "gpa": "1.8",
-	    "courses": [
-		"Compiler Construction <span class=\"badge\">Yacc</span>",
-		"Functional Programming <span class=\"badge\">Haskell</span>",
-		"Logicprogramming <span class=\"badge\">Prolog</span>",
-		"Satisfiability Checking <span class=\"badge\">Z3</span>",
-		"Static Program Analysis",
-		"Infinite Computations and Games",
-		"Generative Software Engineering <span class=\"badge\">Java</span>",
-		"Model-Based Software Engineering <span class=\"badge\">Java</span>",
-		"Software Architectures <span class=\"badge\">Ada</span>",
-		"Implementation of Databases",
-		"Artificial Intelligence",
-		"The Logic of Knowledge Bases",
-		"Development of IT Standards",
-		"Column Generation and Branch-and-Price <span class=\"badge\">SCIP</span>",
-		"Advanced Operations Research"
-	    ]
+	    "courses": []
 	}, {
 	    "institution": "FH Aachen Abt. Jülich",
 	    "area": "Scientific Programming",
