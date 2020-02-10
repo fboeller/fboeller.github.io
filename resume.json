@@ -152,24 +152,10 @@
 	    ]
 	},
 	{
-	    "name": "Editors",
-	    "keywords": [
-		"Intellij",
-		"Emacs"
-	    ]
-	},
-	{
 	    "name": "Operating Systems",
 	    "keywords": [
 		"Ubuntu",
-		"MacOS",
-		"Arch"
-	    ]
-	},
-	{
-	    "name": "Version Control",
-	    "keywords": [
-		"Git"
+		"MacOS"
 	    ]
 	},
 	{
@@ -187,19 +173,28 @@
 	    ]
 	},
 	{
-	    "name": "CI & CD",
+	    "name": "DevOps",
 	    "keywords": [
+		"Docker",
+		"Kubernetes",
 		"Github Actions",
 		"Jenkins"
 	    ]
 	},
 	{
-	    "name": "DevOps",
+	    "name": "Testing",
 	    "keywords": [
-		"Docker",
-		"Kubernetes"
+		"Property Testing",
+		"Testcontainers"
 	    ]
-	}	
+	},
+	{
+	    "name": "Other",
+	    "keywords": [
+		"IntelliJ",
+		"Git"
+	    ]
+	}
     ],
     
     "languages": [
