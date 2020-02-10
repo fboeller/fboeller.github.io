@@ -212,7 +212,21 @@
 	{
 	    "name": "Traveling",
 	    "keywords": [
-		"Backpacking"
+		"Backpacking",
+		"Hiking"
+	    ]
+	},
+	{
+	    "name": "Sports",
+	    "keywords": [
+		"Football",
+		"Tabletennis"
+	    ]
+	},
+	{
+	    "name": "Music",
+	    "keywords": [
+		"Harmonica"
 	    ]
 	}
     ]
