@@ -1,0 +1,38 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.logo {
+    @apply h-8 w-8 inline-block align-middle;
+}
+
+.elevated {
+    @apply rounded-lg shadow-sm;
+}
+
+.elevated:hover {
+    @apply shadow-lg;
+    transform: translateY(-2px);
+}
+
+.chip {
+    @apply bg-blue-lighter flex-none py-1 px-3 mr-1 my-1 rounded-full text-sm cursor-default;
+}
+
+.chip:hover {
+    @apply shadow-sm;
+    transform: translateY(-1px);
+}
+
+.timeline-indent {
+    @apply h-8 mb-3 float-left;
+}
+
+.timeline-block {
+    @apply bg-blue-lighter rounded-full h-8 mb-3 float-left cursor-pointer;
+}
+
+.timeline-block:hover, .timeline-block:active {
+    @apply bg-blue shadow-lg;
+    transform: translateY(-2px);
+}

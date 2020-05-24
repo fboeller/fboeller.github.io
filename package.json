@@ -1,0 +1,29 @@
+{
+  "name": "fboeller.github.io",
+  "version": "1.0.0",
+  "description": "My personal resume",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "precss": "^4.0.0",
+    "tailwindcss": "^1.4.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fboeller/fboeller.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fboeller/fboeller.github.io/issues"
+  },
+  "homepage": "https://github.com/fboeller/fboeller.github.io#readme"
+}
