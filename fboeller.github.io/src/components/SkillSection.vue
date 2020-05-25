@@ -23,3 +23,14 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.scroll-x {
+  @apply overflow-y-hidden overflow-x-scroll;
+  scrollbar-width: none;
+}
+
+.scroll-x::-webkit-scrollbar {
+  display: none;
+}
+</style>

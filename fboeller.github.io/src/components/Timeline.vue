@@ -23,3 +23,19 @@ export default {
   name: "Timeline",
 };
 </script>
+
+<style scope>
+.timeline-indent {
+  @apply h-8 mb-3 float-left;
+}
+
+.timeline-block {
+  @apply bg-blue-lighter rounded-full h-8 mb-3 float-left cursor-pointer;
+}
+
+.timeline-block:hover,
+.timeline-block:active {
+  @apply bg-blue shadow-lg;
+  transform: translateY(-2px);
+}
+</style>

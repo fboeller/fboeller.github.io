@@ -1,7 +1,7 @@
 <template>
   <div
     id="languages"
-    class="bg-blue h-64 w-84 mr-8 flex-none rounded-lg shadow-sm"
+    class="bg-blue h-64 w-84 mr-8 flex-none elevated"
   >
     <div
       class="w-full h-24 bg-cover rounded-t-lg"

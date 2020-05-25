@@ -2,7 +2,10 @@
   <div id="roleinfo" class="bg-blue h-72 w-full p-6 mb-8 elevated">
     <div id="roledescription" class="box-border w-1/2 float-left">
       <div class="h-12 mb-4">
-        <img v-bind:src="require('@/assets/companies/leanix.svg')" class="h-full" />
+        <img
+          v-bind:src="require('@/assets/companies/leanix.svg')"
+          class="h-full"
+        />
       </div>
       <p class="text-sm text-gray-300 mb-1">July 2018 - present</p>
       <h4 class="text-lg mb-3">Senior Software Engineer</h4>
@@ -39,3 +42,14 @@ export default {
   name: "RoleInfo",
 };
 </script>
+
+<style scoped>
+.chip {
+  @apply bg-blue-lighter flex-none py-1 px-3 mr-1 my-1 rounded-full text-sm cursor-default;
+}
+
+.chip:hover {
+  @apply shadow-sm;
+  transform: translateY(-1px);
+}
+</style>
