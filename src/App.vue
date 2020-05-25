@@ -6,13 +6,7 @@
     <Header />
     <div class="clear-both"></div>
     <SkillSection v-bind:skills="skills" />
-    <RoleInfo
-      v-bind:position="role.position"
-      v-bind:description="role.description"
-      v-bind:time="role.time"
-      v-bind:image="role.image"
-      v-bind:highlights="role.highlights"
-    />
+    <RoleSection v-bind:roles="roles" />
     <Timeline />
   </div>
 </template>
@@ -20,7 +14,7 @@
 <script>
 import Header from "./components/Header.vue";
 import SkillSection from "./components/SkillSection.vue";
-import RoleInfo from "./components/RoleInfo.vue";
+import RoleSection from "./components/RoleSection.vue";
 import Timeline from "./components/Timeline.vue";
 
 export default {
@@ -47,30 +41,32 @@ export default {
           ],
         },
       ],
-      role: {
-        position: "Senior Software Engineer",
-        description: `I am working as a senior software engineer at LeanIX. LeanIX builds
+      roles: [
+        {
+          position: "Senior Software Engineer",
+          description: `I am working as a senior software engineer at LeanIX. LeanIX builds
         software to enable companies to get and collaboratively maintain an
         overview of their IT landscape.`,
-        time: "July 2018 - present",
-        image: "companies/leanix.svg",
-        highlights: [
-          {
-            text: "Conception and development of the Integration API",
-            chips: ["Java", "Vavr", "Kubernetes"],
-          },
-          {
-            text: "Fullstack development of a search",
-            chips: ["Java", "Elasticsearch", "Angular"],
-          },
-        ],
-      },
+          time: "July 2018 - present",
+          image: "companies/leanix.svg",
+          highlights: [
+            {
+              text: "Conception and development of the Integration API",
+              chips: ["Java", "Vavr", "Kubernetes"],
+            },
+            {
+              text: "Fullstack development of a search",
+              chips: ["Java", "Elasticsearch", "Angular"],
+            },
+          ],
+        },
+      ],
     };
   },
   components: {
     Header,
     SkillSection,
-    RoleInfo,
+    RoleSection,
     Timeline,
   },
 };
