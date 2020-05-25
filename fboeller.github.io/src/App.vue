@@ -5,31 +5,43 @@
   >
     <Header />
     <div class="clear-both"></div>
-    <SkillCard v-bind:title="title" v-bind:image="image" v-bind:tools="tools" />
+    <SkillSection v-bind:skills="skills" />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
-import SkillCard from "./components/SkillCard.vue";
+import SkillSection from "./components/SkillSection.vue";
 
 export default {
   name: "App",
   data: function() {
     return {
-      image: "categories/programming-languages.jpg",
-      title: "Programming Languages",
-      tools: [
-        { text: "Kotlin", image: "icons/kotlin.svg" },
-        { text: "Java", image: "icons/java.svg" },
-        { text: "Haskell", image: "icons/haskell.svg" },
-        { text: "Typescript", image: "icons/typescript.svg" },
+      skills: [
+        {
+          title: "Programming Languages",
+          image: "categories/programming-languages.jpg",
+          tools: [
+            { text: "Kotlin", image: "icons/kotlin.svg" },
+            { text: "Java", image: "icons/java.svg" },
+            { text: "Haskell", image: "icons/haskell.svg" },
+            { text: "Typescript", image: "icons/typescript.svg" },
+          ],
+        },
+        {
+          title: "Functional Programming",
+          image: "categories/functional-programming.jpg",
+          tools: [
+            { text: "Vavr", image: "icons/vavr.svg" },
+            { text: "ReactiveX", image: "icons/reactivex.svg" },
+          ],
+        },
       ],
     };
   },
   components: {
     Header,
-    SkillCard,
+    SkillSection,
   },
 };
 </script>
