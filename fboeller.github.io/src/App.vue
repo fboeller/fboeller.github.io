@@ -6,12 +6,14 @@
     <Header />
     <div class="clear-both"></div>
     <SkillSection v-bind:skills="skills" />
+    <RoleInfo />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import SkillSection from "./components/SkillSection.vue";
+import RoleInfo from "./components/RoleInfo.vue";
 
 export default {
   name: "App",
@@ -42,6 +44,7 @@ export default {
   components: {
     Header,
     SkillSection,
+    RoleInfo,
   },
 };
 </script>
