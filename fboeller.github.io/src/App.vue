@@ -7,6 +7,7 @@
     <div class="clear-both"></div>
     <SkillSection v-bind:skills="skills" />
     <RoleInfo />
+    <Timeline />
   </div>
 </template>
 
@@ -14,6 +15,7 @@
 import Header from "./components/Header.vue";
 import SkillSection from "./components/SkillSection.vue";
 import RoleInfo from "./components/RoleInfo.vue";
+import Timeline from "./components/Timeline.vue";
 
 export default {
   name: "App",
@@ -45,6 +47,7 @@ export default {
     Header,
     SkillSection,
     RoleInfo,
+    Timeline,
   },
 };
 </script>
