@@ -1,41 +1,65 @@
 <template>
   <div id="timeline h-64">
-    <div class="timeline-block w-1/3"></div>
+    <TimelineBlock
+      size="w-4/12"
+      v-bind:active="active === 0"
+      v-on:click="active = 0"
+    />
     <div class="clear-both"></div>
-    <div class="timeline-block w-1/3"></div>
+    <TimelineBlock
+      size="w-4/12"
+      v-bind:active="active === 1"
+      v-on:click="active = 1"
+    />
     <div class="clear-both"></div>
-    <div class="timeline-indent w-1/3"></div>
-    <div class="timeline-block w-5/12"></div>
+    <div class="indent w-4/12"></div>
+    <TimelineBlock
+      size="w-5/12"
+      v-bind:active="active === 2"
+      v-on:click="active = 2"
+    />
     <div class="clear-both"></div>
-    <div class="timeline-indent w-5/12"></div>
-    <div class="timeline-block w-1/12"></div>
+    <div class="indent w-5/12"></div>
+    <TimelineBlock
+      size="w-1/12"
+      v-bind:active="active === 3"
+      v-on:click="active = 3"
+    />
     <div class="clear-both"></div>
-    <div class="timeline-indent w-7/12"></div>
-    <div class="timeline-block w-1/6"></div>
+    <div class="indent w-7/12"></div>
+    <TimelineBlock
+      size="w-2/12"
+      v-bind:active="active === 4"
+      v-on:click="active = 4"
+    />
     <div class="clear-both"></div>
-    <div class="timeline-indent w-9/12"></div>
-    <div class="timeline-block w-3/12"></div>
+    <div class="indent w-9/12"></div>
+    <TimelineBlock
+      size="w-3/12"
+      v-bind:active="active === 5"
+      v-on:click="active = 5"
+    />
   </div>
 </template>
 
 <script>
+import TimelineBlock from "./TimelineBlock.vue";
+
 export default {
   name: "Timeline",
+  components: {
+    TimelineBlock,
+  },
+  data: function() {
+    return {
+      active: 0,
+    };
+  },
 };
 </script>
 
-<style scope>
-.timeline-indent {
+<style scoped>
+.indent {
   @apply h-8 mb-3 float-left;
-}
-
-.timeline-block {
-  @apply bg-blue-lighter rounded-full h-8 mb-3 float-left cursor-pointer;
-}
-
-.timeline-block:hover,
-.timeline-block:active {
-  @apply bg-blue shadow-lg;
-  transform: translateY(-2px);
 }
 </style>
