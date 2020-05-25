@@ -6,7 +6,13 @@
     <Header />
     <div class="clear-both"></div>
     <SkillSection v-bind:skills="skills" />
-    <RoleInfo />
+    <RoleInfo
+      v-bind:position="role.position"
+      v-bind:description="role.description"
+      v-bind:time="role.time"
+      v-bind:image="role.image"
+      v-bind:highlights="role.highlights"
+    />
     <Timeline />
   </div>
 </template>
@@ -41,6 +47,24 @@ export default {
           ],
         },
       ],
+      role: {
+        position: "Senior Software Engineer",
+        description: `I am working as a senior software engineer at LeanIX. LeanIX builds
+        software to enable companies to get and collaboratively maintain an
+        overview of their IT landscape.`,
+        time: "July 2018 - present",
+        image: "companies/leanix.svg",
+        highlights: [
+          {
+            text: "Conception and development of the Integration API",
+            chips: ["Java", "Vavr", "Kubernetes"],
+          },
+          {
+            text: "Fullstack development of a search",
+            chips: ["Java", "Elasticsearch", "Angular"],
+          },
+        ],
+      },
     };
   },
   components: {

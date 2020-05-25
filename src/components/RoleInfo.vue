@@ -32,26 +32,13 @@
 <script>
 export default {
   name: "RoleInfo",
-  data: function() {
-    return {
-      position: "Senior Software Engineer",
-      description: `I am working as a senior software engineer at LeanIX. LeanIX builds
-        software to enable companies to get and collaboratively maintain an
-        overview of their IT landscape.`,
-      time: "July 2018 - present",
-      image: "companies/leanix.svg",
-      highlights: [
-        {
-          text: "Conception and development of the Integration API",
-          chips: ["Java", "Vavr", "Kubernetes"],
-        },
-        {
-          text: "Fullstack development of a search",
-          chips: ["Java", "Elasticsearch", "Angular"],
-        },
-      ],
-    };
-  },
+  props: {
+    position: String,
+    description: String,
+    time: String,
+    image: String,
+    highlights: Array
+  }
 };
 </script>
 
