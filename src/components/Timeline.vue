@@ -2,42 +2,54 @@
   <div id="timeline h-64">
     <TimelineBlock
       size="w-4/12"
-      v-bind:active="lastClickTarget === 0"
-      v-on:click="lastClickTarget = 0"
+      v-bind:active="lastClickTarget === 0 || hoverTarget === 0"
+      @click="lastClickTarget = 0"
+      @mouseover="hoverTarget = 0"
+      @mouseleave="hoverTarget = null"
     />
     <div class="clear-both"></div>
     <TimelineBlock
       size="w-4/12"
-      v-bind:active="lastClickTarget === 1"
-      v-on:click="lastClickTarget = 1"
+      v-bind:active="lastClickTarget === 1 || hoverTarget === 1"
+      @click="lastClickTarget = 1"
+      @mouseover="hoverTarget = 1"
+      @mouseleave="hoverTarget = null"
     />
     <div class="clear-both"></div>
     <div class="indent w-4/12"></div>
     <TimelineBlock
       size="w-5/12"
-      v-bind:active="lastClickTarget === 2"
-      v-on:click="lastClickTarget = 2"
+      v-bind:active="lastClickTarget === 2 || hoverTarget === 2"
+      @click="lastClickTarget = 2"
+      @mouseover="hoverTarget = 2"
+      @mouseleave="hoverTarget = null"
     />
     <div class="clear-both"></div>
     <div class="indent w-5/12"></div>
     <TimelineBlock
       size="w-1/12"
-      v-bind:active="lastClickTarget === 3"
-      v-on:click="lastClickTarget = 3"
+      v-bind:active="lastClickTarget === 3 || hoverTarget === 3"
+      @click="lastClickTarget = 3"
+      @mouseover="hoverTarget = 3"
+      @mouseleave="hoverTarget = null"
     />
     <div class="clear-both"></div>
     <div class="indent w-7/12"></div>
     <TimelineBlock
       size="w-2/12"
-      v-bind:active="lastClickTarget === 4"
-      v-on:click="lastClickTarget = 4"
+      v-bind:active="lastClickTarget === 4 || hoverTarget === 4"
+      @click="lastClickTarget = 4"
+      @mouseover="hoverTarget = 4"
+      @mouseleave="hoverTarget = null"
     />
     <div class="clear-both"></div>
     <div class="indent w-9/12"></div>
     <TimelineBlock
       size="w-3/12"
-      v-bind:active="lastClickTarget === 5"
-      v-on:click="lastClickTarget = 5"
+      v-bind:active="lastClickTarget === 5 || hoverTarget === 5"
+      @click="lastClickTarget = 5"
+      @mouseover="hoverTarget = 5"
+      @mouseleave="hoverTarget = null"
     />
   </div>
 </template>
@@ -53,6 +65,7 @@ export default {
   data: function() {
     return {
       lastClickTarget: 0,
+      hoverTarget: 0,
     };
   },
 };
