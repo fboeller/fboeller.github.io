@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply bg-blue-darker text-white;
+}
+
 .elevated {
     @apply rounded-lg shadow-sm;
 }

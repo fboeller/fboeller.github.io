@@ -1,8 +1,5 @@
 <template>
-  <div
-    id="app"
-    class="container mx-auto bg-blue-darker text-white px-6 leading-snug"
-  >
+  <div id="app" class="container mx-auto px-6 leading-snug">
     <Header />
     <div class="clear-both"></div>
     <SkillSection v-bind:skills="skills" />
