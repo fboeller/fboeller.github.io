@@ -4,7 +4,7 @@
     <div class="clear-both"></div>
     <SkillSection v-bind:skills="skills" />
     <RoleSection v-bind:roles="roles" />
-    <Timeline />
+    <Timeline @activeTarget="activeTarget = $event" />
   </div>
 </template>
 
@@ -18,6 +18,7 @@ export default {
   name: "App",
   data: function() {
     return {
+      activeTarget: 0,
       skills: [
         {
           title: "Programming Languages",

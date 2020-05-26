@@ -68,6 +68,16 @@ export default {
       hoverTarget: null,
     };
   },
+  computed: {
+    activeTarget: function() {
+      return this.hoverTarget || this.lastClickTarget;
+    },
+  },
+  watch: {
+    activeTarget: function(value) {
+      this.$emit("activeTarget", value);
+    },
+  },
 };
 </script>
 
