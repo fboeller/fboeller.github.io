@@ -3,16 +3,14 @@
     <Header />
     <div class="clear-both"></div>
     <SkillSection v-bind:skills="skills" />
-    <RoleSection v-bind:roles="roles" />
-    <Timeline @activeTarget="activeTarget = $event" />
+    <RoleTimeline v-bind:roles="roles" />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import SkillSection from "./components/SkillSection.vue";
-import RoleSection from "./components/RoleSection.vue";
-import Timeline from "./components/Timeline.vue";
+import RoleTimeline from "./components/RoleTimeline.vue";
 
 export default {
   name: "App",
@@ -64,8 +62,7 @@ export default {
   components: {
     Header,
     SkillSection,
-    RoleSection,
-    Timeline,
+    RoleTimeline,
   },
 };
 </script>
