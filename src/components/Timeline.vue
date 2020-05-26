@@ -64,7 +64,7 @@ export default {
   },
   data: function() {
     return {
-      lastClickTarget: 0,
+      lastClickTarget: 5,
       hoverTarget: null,
     };
   },

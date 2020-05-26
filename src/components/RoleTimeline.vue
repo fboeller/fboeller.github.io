@@ -13,7 +13,7 @@ export default {
   name: "App",
   data: function() {
     return {
-      activeTarget: 0,
+      activeTarget: this.roles.length - 1,
     };
   },
   components: {
