@@ -1,8 +1,6 @@
 <template>
   <div>
     <RoleInfo
-      v-for="role of roles"
-      v-bind:key="role.time"
       v-bind:position="role.position"
       v-bind:description="role.description"
       v-bind:time="role.time"
@@ -21,7 +19,7 @@ export default {
     RoleInfo,
   },
   props: {
-    roles: Array,
+    role: Object,
   },
 };
 </script>

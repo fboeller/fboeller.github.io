@@ -32,7 +32,7 @@ export default {
           title: "Functional Programming",
           image: "categories/functional-programming.jpg",
           tools: [
-            { text: "Vavr", image: "icons/vavr.svg" },
+            { text: "Vavr", image: "icons/java.svg" },
             { text: "ReactiveX", image: "icons/reactivex.svg" },
           ],
         },
