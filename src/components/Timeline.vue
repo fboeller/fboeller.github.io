@@ -1,18 +1,11 @@
 <template>
   <div id="timeline h-64">
+    <div class="indent w-9/12"></div>
     <TimelineBlock
-      size="w-4/12"
-      v-bind:active="lastClickTarget === 0 || hoverTarget === 0"
-      @click="lastClickTarget = 0"
-      @mouseover="hoverTarget = 0"
-      @mouseleave="hoverTarget = null"
-    />
-    <div class="clear-both"></div>
-    <TimelineBlock
-      size="w-4/12"
-      v-bind:active="lastClickTarget === 1 || hoverTarget === 1"
-      @click="lastClickTarget = 1"
-      @mouseover="hoverTarget = 1"
+      size="w-3/12"
+      v-bind:active="lastClickTarget === 5 || hoverTarget === 5"
+      @click="lastClickTarget = 5"
+      @mouseover="hoverTarget = 5"
       @mouseleave="hoverTarget = null"
     />
     <div class="clear-both"></div>
@@ -33,8 +26,7 @@
       @mouseover="hoverTarget = 3"
       @mouseleave="hoverTarget = null"
     />
-    <div class="clear-both"></div>
-    <div class="indent w-7/12"></div>
+    <div class="indent w-1/12"></div>
     <TimelineBlock
       size="w-2/12"
       v-bind:active="lastClickTarget === 4 || hoverTarget === 4"
@@ -43,14 +35,22 @@
       @mouseleave="hoverTarget = null"
     />
     <div class="clear-both"></div>
-    <div class="indent w-9/12"></div>
     <TimelineBlock
-      size="w-3/12"
-      v-bind:active="lastClickTarget === 5 || hoverTarget === 5"
-      @click="lastClickTarget = 5"
-      @mouseover="hoverTarget = 5"
+      size="w-4/12"
+      v-bind:active="lastClickTarget === 1 || hoverTarget === 1"
+      @click="lastClickTarget = 1"
+      @mouseover="hoverTarget = 1"
       @mouseleave="hoverTarget = null"
     />
+    <div class="clear-both"></div>
+    <TimelineBlock
+      size="w-4/12"
+      v-bind:active="lastClickTarget === 0 || hoverTarget === 0"
+      @click="lastClickTarget = 0"
+      @mouseover="hoverTarget = 0"
+      @mouseleave="hoverTarget = null"
+    />
+    <div class="clear-both"></div>
   </div>
 </template>
 
