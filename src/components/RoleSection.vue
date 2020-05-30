@@ -2,7 +2,7 @@
   <div class="relative h-96">
     <RoleInfo
       v-for="(role, index) of roles"
-      v-bind:key="role.time"
+      v-bind:key="role.organization"
       v-bind:class="[translateXClass(index)]"
       v-bind:position="role.position"
       v-bind:description="role.description"

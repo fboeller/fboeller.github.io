@@ -38,6 +38,7 @@ export default {
       ],
       roles: [
         {
+          organization: "FH Aachen",
           position: "Bachelor of Scientific Programming",
           description: "",
           time: "September 2011 – September 2014",
@@ -45,6 +46,7 @@ export default {
           highlights: [],
         },
         {
+          organization: "INFORM GmbH",
           position: "Mathematical and Technical Software Developer Apprentice",
           description: `While working at INFORM, I was involved in several projects for customers in the package service sector. In my team, we developed intelligent software solutions for distribution centers. Those software solutions do not just present data, they analyze the data and give solutions.`,
           time: "September 2011 – September 2014",
@@ -66,6 +68,7 @@ export default {
           ],
         },
         {
+          organization: "RWTH Aachen",
           position: "Master of Computer Science",
           description: "",
           time: "October 2014 – Februar 2018",
@@ -73,6 +76,7 @@ export default {
           highlights: [],
         },
         {
+          organization: "GUTech",
           position: "Teaching Assistant",
           description: `I did an internship at the German University of Technology in Oman for several reasons: 
           I wanted to explore an Arabian country and its culture, experience the teaching aspects of a university and improve my English skills. 
@@ -91,6 +95,7 @@ export default {
           ],
         },
         {
+          organization: "LeiKon GmbH",
           position: "Working Student",
           description: `During my master's I joined the company LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As a working student, I developed multiple web interfaces, scripts for extraction and transformation of data and participated in the development of the main software products.`,
           time: "October 2016 - October 2017",
@@ -111,6 +116,7 @@ export default {
           ],
         },
         {
+          organization: "LeanIX",
           position: "Senior Software Engineer",
           description: `I am working as a senior software engineer at LeanIX. LeanIX builds
         software to enable companies to get and collaboratively maintain an
