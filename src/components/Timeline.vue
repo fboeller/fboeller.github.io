@@ -70,7 +70,9 @@ export default {
   },
   computed: {
     activeTarget: function() {
-      return this.hoverTarget || this.lastClickTarget;
+      return this.hoverTarget !== null
+        ? this.hoverTarget
+        : this.lastClickTarget;
     },
   },
   watch: {
