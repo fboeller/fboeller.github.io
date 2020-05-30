@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .block:hover {
   @apply shadow-xl;
-  transform: translateY(-5px)
+  transform: translateY(-5px);
 }
 
 .active {
