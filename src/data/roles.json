@@ -15,16 +15,16 @@
     "image": "companies/inform.png",
     "highlights": [
       {
-        "text": "Application to control hundreds of display computers ",
+        "text": "Application to control multiple hundred of displays",
         "chips": ["Java"]
       },
       {
-        "text": "Framework to specify protocols on top of TCP/IP for automatic building of mocking instances for different applications",
+        "text": "Library to simplify mocking applications with propietary protocols",
         "chips": ["Java"]
       },
       {
         "text": "Simulation tool for real time yard management",
-        "chips": ["Java"]
+        "chips": ["C++", "Java"]
       }
     ]
   },
@@ -61,15 +61,15 @@
     "image": "companies/leikon.jpg",
     "highlights": [
       {
-        "text": "Web-based visualization software",
+        "text": "Development of web-based visualization software",
         "chips": ["Grafana", "Angular"]
       },
       {
-        "text": "Eclipse-Plugins",
+        "text": "Development of Eclipse-Plugins",
         "chips": ["Java"]
       },
       {
-        "text": "Connection to a serial bar code scanner",
+        "text": "Integration with a serial bar code scanner",
         "chips": ["Python", "ReactiveX"]
       }
     ]
@@ -86,7 +86,7 @@
         "chips": ["Java", "Vavr", "Kubernetes"]
       },
       {
-        "text": "Fullstack development of a search",
+        "text": "Fullstack development of the quick search",
         "chips": ["Java", "Elasticsearch", "Angular"]
       }
     ]
