@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Programming Languages",
+    "image": "categories/programming-languages.jpg",
+    "tools": [
+      { "text": "Kotlin", "image": "icons/kotlin.svg" },
+      { "text": "Java", "image": "icons/java.svg" },
+      { "text": "Haskell", "image": "icons/haskell.svg" },
+      { "text": "Typescript", "image": "icons/typescript.svg" }
+    ]
+  },
+  {
+    "title": "Functional Programming",
+    "image": "categories/functional-programming.jpg",
+    "tools": [
+      { "text": "Vavr", "image": "icons/java.svg" },
+      { "text": "ReactiveX", "image": "icons/reactivex.svg" }
+    ]
+  }
+]
