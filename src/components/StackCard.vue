@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue h-64 w-90 flex-initial elevated">
+  <div class="bg-blue h-64 flex-initial elevated">
     <SkillList :title="stack.title" :text="stack.text" :tools="stack.tools" />
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div id="skills" class="flex flex-wrap justify-between">
+  <div id="skills" class="grid grid-cols-1 lg:grid-cols-3 gap-8">
     <StackCard v-for="stack of stacks" v-bind:key="stack.title" v-bind:stack="stack" />
   </div>
 </template>
