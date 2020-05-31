@@ -17,7 +17,11 @@
     "tools": [
       { "text": "Kotlin", "image": "icons/kotlin.svg" },
       { "text": "Arrow", "image": "icons/arrow.svg" },
-      { "text": "Kubernetes", "image": "icons/kubernetes.svg" },
+      {
+        "text": "Kubernetes",
+        "image": "icons/kubernetes.svg",
+        "imageClasses": ["bg-white"]
+      },
       { "text": "Postgres", "image": "icons/postgres.svg" },
       { "text": "Docker", "image": "icons/docker.svg" },
       { "text": "IntelliJ", "image": "icons/intellij.svg" }
@@ -27,7 +31,11 @@
     "title": "Alternative Backend Stack",
     "text": "My choice for IO heavy services",
     "tools": [
-      { "text": "Node.js", "image": "icons/nodejs.svg" },
+      {
+        "text": "Node.js",
+        "image": "icons/nodejs.svg",
+        "imageClasses": ["bg-white", "px-1"]
+      },
       { "text": "Express.js", "image": "icons/reactivex.svg" }
     ]
   }
