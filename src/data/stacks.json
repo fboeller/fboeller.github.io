@@ -1,7 +1,7 @@
 [
   {
     "title": "Favorite Frontend Stack",
-    "text": "My favorite stack for complex frontends",
+    "text": "My choice for complex frontends",
     "tools": [
       { "text": "Angular", "image": "icons/angularjs.svg" },
       { "text": "RxJS", "image": "icons/reactivex.svg" },
@@ -13,7 +13,7 @@
   },
   {
     "title": "Favorite Backend Stack",
-    "text": "My favorite stack for CPU heavy services",
+    "text": "My choice for CPU heavy services",
     "tools": [
       { "text": "Kotlin", "image": "icons/kotlin.svg" },
       { "text": "Arrow", "image": "icons/arrow.svg" },
