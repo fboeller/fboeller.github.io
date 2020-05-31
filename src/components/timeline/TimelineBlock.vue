@@ -1,7 +1,7 @@
 <template>
   <div
     class="block rounded-full h-8 mb-3 float-left cursor-pointer"
-    v-bind:class="{ active: active, inactive: !active, [size]: true }"
+    :class="{ active: active, inactive: !active, [size]: true }"
     @click="$emit('click')"
     @mouseover="$emit('mouseover')"
     @mouseleave="$emit('mouseleave')"
@@ -13,8 +13,8 @@ export default {
   name: "TimelineBlock",
   props: {
     active: Boolean,
-    size: String,
-  },
+    size: String
+  }
 };
 </script>
 

@@ -1,11 +1,6 @@
 <template>
   <div class="grid grid-cols-2 gap-4">
-    <Tool
-      v-for="tool of tools"
-      v-bind:key="tool.text"
-      v-bind:text="tool.text"
-      v-bind:image="tool.image"
-    />
+    <Tool v-for="tool of tools" :key="tool.text" :text="tool.text" :image="tool.image" />
   </div>
 </template>
 

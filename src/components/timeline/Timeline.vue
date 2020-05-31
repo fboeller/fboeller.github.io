@@ -3,7 +3,7 @@
     <div class="indent w-9/12"></div>
     <TimelineBlock
       size="w-3/12"
-      v-bind:active="lastClickTarget === 5 || hoverTarget === 5"
+      :active="lastClickTarget === 5 || hoverTarget === 5"
       @click="lastClickTarget = 5"
       @mouseover="hoverTarget = 5"
       @mouseleave="hoverTarget = null"
@@ -12,7 +12,7 @@
     <div class="indent w-4/12"></div>
     <TimelineBlock
       size="w-5/12"
-      v-bind:active="lastClickTarget === 2 || hoverTarget === 2"
+      :active="lastClickTarget === 2 || hoverTarget === 2"
       @click="lastClickTarget = 2"
       @mouseover="hoverTarget = 2"
       @mouseleave="hoverTarget = null"
@@ -21,7 +21,7 @@
     <div class="indent w-5/12"></div>
     <TimelineBlock
       size="w-1/12"
-      v-bind:active="lastClickTarget === 3 || hoverTarget === 3"
+      :active="lastClickTarget === 3 || hoverTarget === 3"
       @click="lastClickTarget = 3"
       @mouseover="hoverTarget = 3"
       @mouseleave="hoverTarget = null"
@@ -29,7 +29,7 @@
     <div class="indent w-1/12"></div>
     <TimelineBlock
       size="w-2/12"
-      v-bind:active="lastClickTarget === 4 || hoverTarget === 4"
+      :active="lastClickTarget === 4 || hoverTarget === 4"
       @click="lastClickTarget = 4"
       @mouseover="hoverTarget = 4"
       @mouseleave="hoverTarget = null"
@@ -37,7 +37,7 @@
     <div class="clear-both"></div>
     <TimelineBlock
       size="w-4/12"
-      v-bind:active="lastClickTarget === 1 || hoverTarget === 1"
+      :active="lastClickTarget === 1 || hoverTarget === 1"
       @click="lastClickTarget = 1"
       @mouseover="hoverTarget = 1"
       @mouseleave="hoverTarget = null"
@@ -45,7 +45,7 @@
     <div class="clear-both"></div>
     <TimelineBlock
       size="w-4/12"
-      v-bind:active="lastClickTarget === 0 || hoverTarget === 0"
+      :active="lastClickTarget === 0 || hoverTarget === 0"
       @click="lastClickTarget = 0"
       @mouseover="hoverTarget = 0"
       @mouseleave="hoverTarget = null"
@@ -60,12 +60,12 @@ import TimelineBlock from "./TimelineBlock.vue";
 export default {
   name: "Timeline",
   components: {
-    TimelineBlock,
+    TimelineBlock
   },
   data: function() {
     return {
       lastClickTarget: 5,
-      hoverTarget: null,
+      hoverTarget: null
     };
   },
   computed: {
@@ -73,13 +73,13 @@ export default {
       return this.hoverTarget !== null
         ? this.hoverTarget
         : this.lastClickTarget;
-    },
+    }
   },
   watch: {
     activeTarget: function(value) {
       this.$emit("activeTarget", value);
-    },
-  },
+    }
+  }
 };
 </script>
 

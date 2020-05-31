@@ -2,9 +2,9 @@
   <div class="relative h-168 md:h-84">
     <RoleInfo
       v-for="(role, index) of roles"
-      v-bind:key="role.organization"
-      v-bind:class="[translateXClass(index)]"
-      v-bind:role="role"
+      :key="role.organization"
+      :class="[translateXClass(index)]"
+      :role="role"
       class="absolute transition transform ease-in-out duration-1000"
     />
   </div>

@@ -5,9 +5,9 @@
     <div>
       <div class="h-12 mb-4">
         <img
-          v-bind:src="require(`@/assets/${role.image}`)"
+          :src="require(`@/assets/${role.image}`)"
           class="h-full"
-          v-bind:class="role.imageClasses"
+          :class="role.imageClasses"
         />
       </div>
       <p class="text-sm text-gray-300 mb-1">{{ role.time }}</p>
@@ -16,10 +16,10 @@
     </div>
     <div>
       <h3 class="text-2xl mb-4 mt-3">Highlights</h3>
-      <div v-for="highlight of role.highlights" v-bind:key="highlight.text" class="mb-3">
+      <div v-for="highlight of role.highlights" :key="highlight.text" class="mb-3">
         <p class="mb-1">{{ highlight.text }}</p>
         <div class="flex flex-wrap">
-          <span v-for="chip of highlight.chips" v-bind:key="chip" class="chip">{{ chip }}</span>
+          <span v-for="chip of highlight.chips" :key="chip" class="chip">{{ chip }}</span>
         </div>
       </div>
     </div>

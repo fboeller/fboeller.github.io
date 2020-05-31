@@ -1,7 +1,7 @@
 <template>
   <header class="py-5">
     <div class="h-32 w-32 float-left">
-      <img v-bind:src="require('@/assets/formal_square_320.jpg')" class="rounded-full" />
+      <img :src="require('@/assets/formal_square_320.jpg')" class="rounded-full" />
     </div>
     <div class="ml-4 mt-6 float-left">
       <h1 class="text-2xl mb-2">Fabian Böller</h1>

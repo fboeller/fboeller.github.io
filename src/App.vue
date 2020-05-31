@@ -2,8 +2,8 @@
   <div id="app" class="container mx-auto px-6 leading-snug overflow-hidden">
     <Header />
     <div class="clear-both"></div>
-    <StackSection v-bind:stacks="stacks" class="my-8" />
-    <RoleTimeline v-bind:roles="roles" class="my-8" />
+    <StackSection :stacks="stacks" class="my-8" />
+    <RoleTimeline :roles="roles" class="my-8" />
   </div>
 </template>
 

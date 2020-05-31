@@ -1,6 +1,6 @@
 <template>
   <div>
-    <RoleSection v-bind:roles="roles" v-bind:activeTarget="activeTarget" class="my-8" />
+    <RoleSection :roles="roles" :activeTarget="activeTarget" class="my-8" />
     <Timeline @activeTarget="activeTarget = $event" class="my-8" />
   </div>
 </template>
