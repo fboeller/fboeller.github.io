@@ -16,17 +16,17 @@ import RoleInfo from "./RoleInfo.vue";
 export default {
   name: "RoleSection",
   components: {
-    RoleInfo,
+    RoleInfo
   },
   methods: {
     translateXClass: function(index) {
       const vw = (index - this.activeTarget) * 100;
       return vw >= 0 ? "translate-x-" + vw : "-translate-x-" + Math.abs(vw);
-    },
+    }
   },
   props: {
     roles: Array,
-    activeTarget: Number,
-  },
+    activeTarget: Number
+  }
 };
 </script>

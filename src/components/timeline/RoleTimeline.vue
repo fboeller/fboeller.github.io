@@ -13,12 +13,12 @@ export default {
   name: "App",
   data: function() {
     return {
-      activeTarget: this.roles.length - 1,
+      activeTarget: this.roles.length - 1
     };
   },
   components: {
     RoleSection,
-    Timeline,
+    Timeline
   },
   props: {
     roles: Array

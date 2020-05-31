@@ -5,19 +5,31 @@
     <div>
       <div class="h-12 mb-4">
         <a :href="role.url" target="_blank">
-          <img :src="require(`@/assets/${role.image}`)" class="h-full" :class="role.imageClasses" />
+          <img
+            :src="require(`@/assets/${role.image}`)"
+            class="h-full"
+            :class="role.imageClasses"
+          />
         </a>
       </div>
       <p class="text-sm text-gray-300 mb-1">{{ role.time }}</p>
-      <h4 class="text-lg mb-3">{{ role.position }} @ {{ role.organization }}</h4>
+      <h4 class="text-lg mb-3">
+        {{ role.position }} @ {{ role.organization }}
+      </h4>
       <p>{{ role.description }}</p>
     </div>
     <div>
       <h3 class="text-2xl mb-4 mt-3">Highlights</h3>
-      <div v-for="highlight of role.highlights" :key="highlight.text" class="mb-3">
+      <div
+        v-for="highlight of role.highlights"
+        :key="highlight.text"
+        class="mb-3"
+      >
         <p class="mb-1">{{ highlight.text }}</p>
         <div class="flex flex-wrap">
-          <span v-for="chip of highlight.chips" :key="chip" class="chip">{{ chip }}</span>
+          <span v-for="chip of highlight.chips" :key="chip" class="chip">{{
+            chip
+          }}</span>
         </div>
       </div>
     </div>
