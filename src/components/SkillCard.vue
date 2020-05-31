@@ -1,5 +1,5 @@
 <template>
-  <div id="languages" class="bg-blue h-72 w-84 mr-8 flex-none elevated">
+  <div id="languages" class="bg-blue h-72 w-84 flex-none elevated">
     <div
       v-if="skill.image"
       class="w-full h-32 bg-cover rounded-t-lg"
