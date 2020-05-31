@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-84">
+  <div class="relative h-168 md:h-84">
     <RoleInfo
       v-for="(role, index) of roles"
       v-bind:key="role.organization"

@@ -19,6 +19,7 @@ module.exports = {
         "84": "21rem",
         "90": "22.5rem",
         "96": "24rem",
+        "168": "36rem",
       },
       translate: {
         "100": "100vw",
