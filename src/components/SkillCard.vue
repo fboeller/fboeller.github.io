@@ -1,15 +1,13 @@
 <template>
-  <div
-    id="languages"
-    class="bg-blue h-64 w-84 mr-8 flex-none elevated"
-  >
+  <div id="languages" class="bg-blue h-72 w-84 mr-8 flex-none elevated">
     <div
-      class="w-full h-24 bg-cover rounded-t-lg"
+      v-if="skill.image"
+      class="w-full h-32 bg-cover rounded-t-lg"
       v-bind:style="{
-        backgroundImage: 'url(' + require(`@/assets/${image}`) + ')',
+        backgroundImage: 'url(' + require(`@/assets/${skill.image}`) + ')',
       }"
     ></div>
-    <SkillList v-bind:title="title" v-bind:tools="tools" />
+    <SkillList v-bind:title="skill.title" v-bind:text="skill.text" v-bind:tools="skill.tools" />
   </div>
 </template>
 
@@ -19,12 +17,10 @@ import SkillList from "./SkillList.vue";
 export default {
   name: "SkillCard",
   components: {
-    SkillList,
+    SkillList
   },
   props: {
-    title: String,
-    image: String,
-    tools: Array,
-  },
+    skill: Object
+  }
 };
 </script>

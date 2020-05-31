@@ -1,5 +1,46 @@
 [
   {
+    "title": "Favorite Backend Stack",
+    "text": "My favorite stack for CPU heavy services",
+    "tools": [
+      { "text": "Kotlin", "image": "icons/kotlin.svg" },
+      { "text": "Arrow", "image": "icons/arrow.svg" },
+      { "text": "Kubernetes", "image": "icons/kubernetes.svg" },
+      { "text": "Postgres", "image": "icons/postgres.svg" },
+      { "text": "Docker", "image": "icons/docker.svg" },
+      { "text": "IntelliJ", "image": "icons/intellij.svg" }
+    ]
+  },
+  {
+    "title": "Favorite Frontend Stack",
+    "text": "My favorite stack for a complex web frontend",
+    "tools": [
+      { "text": "Angular", "image": "icons/angularjs.svg" },
+      { "text": "RxJS", "image": "icons/reactivex.svg" },
+      { "text": "Ngrx", "image": "icons/ngrx.svg" },
+      { "text": "Typescript", "image": "icons/typescript.svg" },
+      { "text": "Nginx", "image": "icons/nginx.svg" },
+      { "text": "VSCode", "image": "icons/vscode.svg" }
+    ]
+  },
+  {
+    "title": "Alternative Backend Stack",
+    "text": "My choice for IO heavy services",
+    "tools": [
+      { "text": "Node.js", "image": "icons/nodejs.svg" },
+      { "text": "Express.js", "image": "icons/reactivex.svg" }
+    ]
+  },
+  {
+    "title": "Legacy Stack",
+    "text": "My choice for legacy Java services",
+    "tools": [
+      { "text": "Java", "image": "icons/java.svg" },
+      { "text": "Vavr", "image": "icons/java.svg" },
+      { "text": "Jdbi", "image": "icons/jdbi.svg" }
+    ]
+  },
+  {
     "title": "Programming Languages",
     "image": "categories/programming-languages.jpg",
     "tools": [

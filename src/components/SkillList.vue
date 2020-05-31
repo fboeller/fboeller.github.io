@@ -1,6 +1,7 @@
 <template>
-  <div class="px-6 py-4 h-40 text-white">
+  <div class="px-6 py-5 h-40 text-white">
     <h3 class="mb-3 text-lg">{{ title }}</h3>
+    <p v-if="text" class="text-gray-300 mb-3">{{ text }}</p>
     <div class="flex flex-wrap justify-between">
       <Tool
         v-for="tool of tools"
@@ -18,11 +19,12 @@ import Tool from "./Tool.vue";
 export default {
   name: "SkillList",
   components: {
-    Tool,
+    Tool
   },
   props: {
     title: String,
+    text: String,
     tools: Array
-  },
+  }
 };
 </script>
