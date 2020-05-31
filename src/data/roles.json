@@ -2,16 +2,21 @@
   {
     "organization": "FH Aachen",
     "position": "Bachelor of Scientific Programming",
-    "description": "",
+    "description": "At the FH Aachen, I gained a general education in Software Development and Mathematics.",
     "time": "September 2011 – September 2014",
     "image": "companies/fh.png",
     "imageClasses": ["bg-white", "p-1"],
-    "highlights": []
+    "highlights": [
+      {
+        "text": "Bachelor's Thesis - Analysis of the potential of a yard management software",
+        "chips": ["C++", "Java"]
+      }
+    ]
   },
   {
     "organization": "INFORM GmbH",
     "position": "MaTSE Apprentice",
-    "description": "While working at INFORM, I was involved in several projects for customers in the package service sector. In my team, we developed intelligent software solutions for distribution centers. Those software solutions do not just present data, they analyze the data and give solutions.",
+    "description": "At INFORM, I was involved in several projects for customers in the package service sector. In my team, we developed an intelligent software solution for distribution centers. This solution creates optimized real-time schedules to decrease the time of each package spent in the center.",
     "time": "September 2011 – September 2014",
     "image": "companies/inform.png",
     "highlights": [
@@ -32,10 +37,15 @@
   {
     "organization": "RWTH Aachen",
     "position": "Master of Computer Science",
-    "description": "",
+    "description": "At the RWTH Aachen, I focused on the theoratical foundations of programming languages and general software development.",
     "time": "October 2014 – Februar 2018",
     "image": "companies/rwth.png",
-    "highlights": []
+    "highlights": [
+      {
+        "text": "Master's Thesis - Non-Monotonic Bound for Complexity Analysis of Integer Programs",
+        "chips": ["OCaml", "Z3"]
+      }
+    ]
   },
   {
     "organization": "GUTech",
