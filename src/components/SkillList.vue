@@ -1,8 +1,8 @@
 <template>
-  <div class="px-6 py-5 h-40 text-white">
+  <div class="px-6 py-5 text-white">
     <h3 class="mb-3 text-lg">{{ title }}</h3>
     <p v-if="text" class="text-gray-300 mb-3">{{ text }}</p>
-    <div class="flex flex-wrap justify-between">
+    <div class="grid grid-cols-2 gap-4">
       <Tool
         v-for="tool of tools"
         v-bind:key="tool.text"
