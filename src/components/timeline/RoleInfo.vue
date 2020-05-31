@@ -4,11 +4,9 @@
   >
     <div>
       <div class="h-12 mb-4">
-        <img
-          :src="require(`@/assets/${role.image}`)"
-          class="h-full"
-          :class="role.imageClasses"
-        />
+        <a :href="role.url" target="_blank">
+          <img :src="require(`@/assets/${role.image}`)" class="h-full" :class="role.imageClasses" />
+        </a>
       </div>
       <p class="text-sm text-gray-300 mb-1">{{ role.time }}</p>
       <h4 class="text-lg mb-3">{{ role.position }} @ {{ role.organization }}</h4>
