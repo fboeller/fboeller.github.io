@@ -1,22 +1,19 @@
 <template>
   <div id="skills" class="my-8 flex flex-wrap justify-between">
-    <SkillCard v-for="stack of stacks" v-bind:key="stack.title" v-bind:skill="stack" />
+    <StackCard v-for="stack of stacks" v-bind:key="stack.title" v-bind:stack="stack" />
   </div>
 </template>
 
 <script>
-import SkillCard from "./SkillCard.vue";
+import StackCard from "./StackCard.vue";
 
 export default {
   name: "StackSection",
   components: {
-    SkillCard
+    StackCard
   },
   props: {
     stacks: Array
   }
 };
 </script>
-
-<style scoped>
-</style>
