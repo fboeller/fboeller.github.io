@@ -1,16 +1,24 @@
 # fboeller.github.io
-My personal resume
 
-## Setup
+## Project setup
+```
+npm install
+```
 
-The resume uses JSON Resume (https://jsonresume.org/) to compile an html file from the resume.json specification.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-The compiled version uses the theme "kendall".
-To use it, it must be installed globally with npm.
-  
-  `npm install -g resume-cli jsonresume-theme-kendall`
-  
-Then the index.html can be generated with
+### Compiles and minifies for production
+```
+npm run build
+```
 
-  `resume export -t kendall index.html`
+### Lints and fixes files
+```
+npm run lint
+```
 
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Favorite Frontend Stack",
+    "text": "My choice for complex frontends",
+    "tools": [
+      { "text": "Angular", "image": "icons/angularjs.svg", "url": "https://angular.io/" },
+      { "text": "RxJS", "image": "icons/reactivex.svg", "url": "https://www.learnrxjs.io/" },
+      { "text": "Ngrx", "image": "icons/ngrx.svg", "url": "https://ngrx.io/" },
+      { "text": "Typescript", "image": "icons/typescript.svg", "url": "https://www.typescriptlang.org/" },
+      { "text": "Nginx", "image": "icons/nginx.svg", "url": "https://nginx.org/" },
+      { "text": "VSCode", "image": "icons/vscode.svg", "url": "https://code.visualstudio.com/" }
+    ]
+  },
+  {
+    "title": "Favorite Backend Stack",
+    "text": "My choice for CPU heavy services",
+    "tools": [
+      { "text": "Kotlin", "image": "icons/kotlin.svg", "url": "https://kotlinlang.org/" },
+      { "text": "Arrow", "image": "icons/arrow.svg", "url": "https://arrow-kt.io/" },
+      { "text": "Postgres", "image": "icons/postgres.svg", "url": "https://www.postgresql.org/" },
+      { "text": "IntelliJ", "image": "icons/intellij.svg", "url": "https://www.jetbrains.com/idea/" },
+      { "text": "Docker", "image": "icons/docker.svg", "url": "https://www.docker.com/" },
+      {
+        "text": "Kubernetes",
+        "image": "icons/kubernetes.svg",
+        "imageClasses": ["bg-white"],
+        "url": "https://kubernetes.io/"
+      }
+    ]
+  },
+  {
+    "title": "Alternative Backend Stack",
+    "text": "My choice for IO heavy services",
+    "tools": [
+      {
+        "text": "Node.js",
+        "image": "icons/nodejs.svg",
+        "imageClasses": ["bg-white", "px-1"],
+        "url": "https://nodejs.org/en/docs/"
+      },
+      { "text": "Express.js", "image": "icons/expressjs.png", "url": "https://expressjs.com/" },
+      { "text": "Axios", "image": "icons/axios.png", "url": "https://github.com/axios/axios" },
+      { "text": "MongoDB", "image": "icons/mongodb.svg", "url": "https://www.mongodb.com/" },
+      { "text": "Docker", "image": "icons/docker.svg", "url": "https://www.docker.com/" },
+      {
+        "text": "Kubernetes",
+        "image": "icons/kubernetes.svg",
+        "imageClasses": ["bg-white"],
+        "url": "https://kubernetes.io/"
+      }
+    ]
+  }
+]
