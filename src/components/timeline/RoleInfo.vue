@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid grid-cols-1 md:grid-cols-2 md:gap-8 bg-blue h-full w-full p-6 rounded-lg overflow-auto"
+    class="grid grid-cols-1 md:grid-cols-2 md:gap-8 bg-blue h-full w-full p-6 rounded-lg overflow-auto shadow-sm"
   >
     <div>
       <div class="h-12 mb-4">
