@@ -4,6 +4,7 @@
     <div class="clear-both"></div>
     <StackSection :stacks="stacks" class="my-8" />
     <RoleTimeline :roles="roles" class="my-8" />
+    <ReferenceGrid class="my-8" />
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import Header from "./components/Header.vue";
 import StackSection from "./components/StackSection.vue";
 import RoleTimeline from "./components/timeline/RoleTimeline.vue";
+import ReferenceGrid from "./components/reference-grid/ReferenceGrid.vue";
 import stacks from "./data/stacks.json";
 import roles from "./data/roles.json";
 
@@ -25,7 +27,8 @@ export default {
   components: {
     Header,
     StackSection,
-    RoleTimeline
+    RoleTimeline,
+    ReferenceGrid
   }
 };
 </script>
