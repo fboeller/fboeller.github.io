@@ -17,14 +17,14 @@
     "tools": [
       { "text": "Kotlin", "image": "icons/kotlin.svg" },
       { "text": "Arrow", "image": "icons/arrow.svg" },
+      { "text": "Postgres", "image": "icons/postgres.svg" },
+      { "text": "IntelliJ", "image": "icons/intellij.svg" },
+      { "text": "Docker", "image": "icons/docker.svg" },
       {
         "text": "Kubernetes",
         "image": "icons/kubernetes.svg",
         "imageClasses": ["bg-white"]
-      },
-      { "text": "Postgres", "image": "icons/postgres.svg" },
-      { "text": "Docker", "image": "icons/docker.svg" },
-      { "text": "IntelliJ", "image": "icons/intellij.svg" }
+      }
     ]
   },
   {
@@ -36,7 +36,15 @@
         "image": "icons/nodejs.svg",
         "imageClasses": ["bg-white", "px-1"]
       },
-      { "text": "Express.js", "image": "icons/reactivex.svg" }
+      { "text": "Express.js", "image": "icons/expressjs.png" },
+      { "text": "Axios", "image": "icons/axios.png" },
+      { "text": "MongoDB", "image": "icons/mongodb.svg" },
+      { "text": "Docker", "image": "icons/docker.svg" },
+      {
+        "text": "Kubernetes",
+        "image": "icons/kubernetes.svg",
+        "imageClasses": ["bg-white"]
+      }
     ]
   }
 ]
