@@ -1,5 +1,5 @@
 <template>
-  <div id="roleinfo" class="bg-blue h-84 h-full w-full p-6 rounded-lg">
+  <div id="roleinfo" class="bg-blue h-84 h-full w-full p-6 rounded-lg overflow-auto">
     <div id="roledescription" class="box-border w-1/2 float-left">
       <div class="h-12 mb-4">
         <img v-bind:src="require(`@/assets/${role.image}`)" class="h-full" v-bind:class="role.imageClasses" />
