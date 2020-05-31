@@ -4,11 +4,7 @@
       v-for="(role, index) of roles"
       v-bind:key="role.organization"
       v-bind:class="[translateXClass(index)]"
-      v-bind:position="role.position"
-      v-bind:description="role.description"
-      v-bind:time="role.time"
-      v-bind:image="role.image"
-      v-bind:highlights="role.highlights"
+      v-bind:role="role"
       class="absolute transition transform ease-in-out duration-1000"
     />
   </div>
