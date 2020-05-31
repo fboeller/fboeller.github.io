@@ -37,7 +37,7 @@ export default {
 
 <style scoped>
 .chip {
-  @apply bg-blue-lighter flex-none py-1 px-3 mr-1 my-1 rounded-full text-sm cursor-default;
+  @apply inline-block bg-blue-lighter py-1 px-3 mr-1 my-1 rounded-full text-sm cursor-default;
 }
 
 .chip:hover {
