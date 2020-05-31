@@ -1,0 +1,111 @@
+[
+  {
+    "organization": "FH Aachen",
+    "url": "https://www.fh-aachen.de/",
+    "position": "Bachelor of Scientific Programming",
+    "description": "At the FH Aachen, I gained a general education in Software Development and Mathematics.",
+    "time": "September 2011 – September 2014",
+    "image": "companies/fh.png",
+    "imageClasses": ["bg-white", "p-1"],
+    "highlights": [
+      {
+        "text": "Bachelor's Thesis - Analysis of the potential of a yard management software",
+        "chips": ["C++", "Java"]
+      }
+    ]
+  },
+  {
+    "organization": "INFORM GmbH",
+    "url": "https://www.inform-software.de/",
+    "position": "MaTSE Apprentice",
+    "description": "At INFORM, I was involved in several projects for customers in the package service sector. In my team, we developed an intelligent software solution for distribution centers. This solution creates optimized real-time schedules to decrease the time of each package spent in the center.",
+    "time": "September 2011 – September 2014",
+    "image": "companies/inform.png",
+    "highlights": [
+      {
+        "text": "Application to control multiple hundred of displays",
+        "chips": ["Java"]
+      },
+      {
+        "text": "Library to simplify mocking applications with propietary protocols",
+        "chips": ["Java"]
+      },
+      {
+        "text": "Simulation tool for real time yard management",
+        "chips": ["C++", "Java"]
+      }
+    ]
+  },
+  {
+    "organization": "RWTH Aachen",
+    "url": "https://rwth-aachen.de/",
+    "position": "Master of Computer Science",
+    "description": "At the RWTH Aachen, I focused on the theoratical foundations of programming languages and general software development.",
+    "time": "October 2014 – Februar 2018",
+    "image": "companies/rwth.png",
+    "highlights": [
+      {
+        "text": "Master's Thesis - Non-Monotonic Bound for Complexity Analysis of Integer Programs",
+        "chips": ["OCaml", "Z3"]
+      }
+    ]
+  },
+  {
+    "organization": "GUTech",
+    "url": "http://www.gutech.edu.om/",
+    "position": "Teaching Assistant",
+    "description": "I did an internship at the German University of Technology in Oman for several reasons: I wanted to explore an Arabian country and its culture, experience the teaching aspects of a university and improve my English skills. Additionally, I took the opportunity to develop the GUtech websites.",
+    "time": "September 2015 – January 2016",
+    "image": "companies/gutech.jpg",
+    "highlights": [
+      {
+        "text": "Assist in teaching of Programming fundamentals",
+        "chips": ["Java", "Python"]
+      },
+      {
+        "text": "Assist in teaching of Operating Systems",
+        "chips": ["C", "Bash", "Arch"]
+      }
+    ]
+  },
+  {
+    "organization": "LeiKon GmbH",
+    "url": "https://www.leikon.de/",
+    "position": "Working Student",
+    "description": "During my master's I joined the company LeiKon. LeiKon supports their customers in the process industry to increase added values of their production plants. As a working student, I developed multiple web interfaces, scripts for extraction and transformation of data and participated in the development of the main software products.",
+    "time": "October 2016 - October 2017",
+    "image": "companies/leikon.jpg",
+    "highlights": [
+      {
+        "text": "Development of web-based visualization software",
+        "chips": ["Grafana", "Angular"]
+      },
+      {
+        "text": "Development of Eclipse-Plugins",
+        "chips": ["Java"]
+      },
+      {
+        "text": "Integration with a serial bar code scanner",
+        "chips": ["Python", "ReactiveX"]
+      }
+    ]
+  },
+  {
+    "organization": "LeanIX",
+    "url": "https://www.leanix.net/en/",
+    "position": "Senior Software Engineer",
+    "description": "I am working as a senior software engineer at LeanIX. LeanIX builds software to enable companies to get and collaboratively maintain an overview of their IT landscape.",
+    "time": "July 2018 - present",
+    "image": "companies/leanix.svg",
+    "highlights": [
+      {
+        "text": "Conception and development of the Integration API",
+        "chips": ["Java", "Vavr", "Kubernetes"]
+      },
+      {
+        "text": "Fullstack development of the quick search",
+        "chips": ["Java", "Elasticsearch", "Angular"]
+      }
+    ]
+  }
+]
