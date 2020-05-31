@@ -5,12 +5,3 @@
 body {
     @apply bg-blue-darker text-white;
 }
-
-.elevated {
-    @apply rounded-lg shadow-sm;
-}
-
-.elevated:hover {
-    @apply shadow-lg;
-    transform: translateY(-2px);
-}
