@@ -2,7 +2,7 @@
   <div id="roleinfo" class="bg-blue h-84 w-full p-6 mb-8 rounded-lg">
     <div id="roledescription" class="box-border w-1/2 float-left">
       <div class="h-12 mb-4">
-        <img v-bind:src="require(`@/assets/${role.image}`)" class="h-full" />
+        <img v-bind:src="require(`@/assets/${role.image}`)" class="h-full" v-bind:class="role.imageClasses" />
       </div>
       <p class="text-sm text-gray-300 mb-1">{{ role.time }}</p>
       <h4 class="text-lg mb-3">{{ role.position }} @ {{ role.organization }}</h4>
@@ -10,19 +10,10 @@
     </div>
     <div id="rolehighlights" class="box-border w-1/2 float-left pl-6">
       <h3 class="text-2xl mb-4 mt-3">Highlights</h3>
-      <div
-        v-for="highlight of role.highlights"
-        v-bind:key="highlight.text"
-        class="mb-3"
-      >
+      <div v-for="highlight of role.highlights" v-bind:key="highlight.text" class="mb-3">
         <p class="mb-1">{{ highlight.text }}</p>
         <div class="flex flex-wrap">
-          <span
-            v-for="chip of highlight.chips"
-            v-bind:key="chip"
-            class="chip"
-            >{{ chip }}</span
-          >
+          <span v-for="chip of highlight.chips" v-bind:key="chip" class="chip">{{ chip }}</span>
         </div>
       </div>
     </div>

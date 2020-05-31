@@ -5,6 +5,7 @@
     "description": "",
     "time": "September 2011 – September 2014",
     "image": "companies/fh.png",
+    "imageClasses": ["bg-white", "p-1"],
     "highlights": []
   },
   {
