@@ -10,7 +10,7 @@
 <script>
 import Header from "./components/Header.vue";
 import SkillSection from "./components/SkillSection.vue";
-import RoleTimeline from "./components/RoleTimeline.vue";
+import RoleTimeline from "./components/timeline/RoleTimeline.vue";
 import skills from "./data/skills.json";
 import roles from "./data/roles.json";
 
