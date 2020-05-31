@@ -2,9 +2,9 @@
   <div id="app" class="container mx-auto px-6 leading-snug overflow-hidden">
     <Header />
     <div class="clear-both"></div>
-    <StackSection v-bind:stacks="stacks" />
-    <RoleTimeline v-bind:roles="roles" />
-    <SkillSection v-bind:skills="skills" />
+    <StackSection v-bind:stacks="stacks" class="my-8" />
+    <RoleTimeline v-bind:roles="roles" class="my-8" />
+    <SkillSection v-bind:skills="skills" class="my-8" />
   </div>
 </template>
 

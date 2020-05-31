@@ -1,5 +1,5 @@
 <template>
-  <div id="skills" class="my-8 flex flex-no-wrap scroll-x">
+  <div id="skills" class="flex flex-no-wrap scroll-x">
     <SkillCard v-for="skill of skills" v-bind:key="skill.title" v-bind:skill="skill" />
   </div>
 </template>
