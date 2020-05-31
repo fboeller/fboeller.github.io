@@ -1,7 +1,7 @@
 [
   {
     "title": "Favorite Frontend Stack",
-    "text": "My favorite stack for a complex web frontend",
+    "text": "My favorite stack for complex frontends",
     "tools": [
       { "text": "Angular", "image": "icons/angularjs.svg" },
       { "text": "RxJS", "image": "icons/reactivex.svg" },
