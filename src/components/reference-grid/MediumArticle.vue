@@ -8,13 +8,11 @@
       </div>
       <p class="text-gray-300 ml-3 inline-block">Medium Article</p>
     </div>
-    <h3 class="my-3 text-lg">Pattern Matching vs. Polymorphism</h3>
-    <p
-      class="overflow-y-scroll"
-    >Subtype polymorphism is great for adding more entity types. Pattern matching is a better choice for adding more functionality. In many use cases, it’s likelier that more functionality is requested than that more entity types are requested. In this article, we implement a program based on a set of simple requirements. First, we implement it using subtype polymorphism, then using pattern matching. Given these implementations, we add two more requirements and compare the necessary changes to implement the new requirements.</p>
+    <h3 class="my-3 text-lg">{{ article.title }}</h3>
+    <p class="overflow-y-scroll">{{ article.excerpt }}</p>
     <div class="mt-auto">
       <a
-        href="https://medium.com/better-programming/pattern-matching-vs-polymorphism-ce0441fbfcda"
+        :href="article.url"
         target="_blank"
         class="float-right text-lg tracking-wider font-bold py-1 px-3 -mb-1 rounded-lg mt-3 hover:bg-blue-lighter"
       >Read more</a>
@@ -24,6 +22,9 @@
 
 <script>
 export default {
-  name: "MediumArticle"
+  name: "MediumArticle",
+  props: {
+    article: Object
+  }
 };
 </script>

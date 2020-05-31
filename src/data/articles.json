@@ -1,0 +1,7 @@
+[
+  {
+    "title": "Pattern Matching vs. Polymorphism",
+    "url": "https://medium.com/better-programming/pattern-matching-vs-polymorphism-ce0441fbfcda",
+    "excerpt": "Subtype polymorphism is great for adding more entity types. Pattern matching is a better choice for adding more functionality. In many use cases, it’s likelier that more functionality is requested than that more entity types are requested. In this article, we implement a program based on a set of simple requirements. First, we implement it using subtype polymorphism, then using pattern matching. Given these implementations, we add two more requirements and compare the necessary changes to implement the new requirements."
+  }
+]
