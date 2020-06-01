@@ -3,30 +3,52 @@
     "type": "Medium Article",
     "icon": "medium.svg",
     "title": "Pattern Matching vs. Polymorphism",
-    "links": [{
-      "text": "Read more",
-      "url": "https://medium.com/better-programming/pattern-matching-vs-polymorphism-ce0441fbfcda"
-    }],
+    "links": [
+      {
+        "text": "Read more",
+        "url": "https://medium.com/better-programming/pattern-matching-vs-polymorphism-ce0441fbfcda"
+      }
+    ],
     "excerpt": "Subtype polymorphism is great for adding more entity types. Pattern matching is a better choice for adding more functionality. In many use cases, it’s likelier that more functionality is requested than that more entity types are requested. In this article, we implement a program based on a set of simple requirements. First, we implement it using subtype polymorphism, then using pattern matching. Given these implementations, we add two more requirements and compare the necessary changes to implement the new requirements."
   },
   {
     "type": "Medium Article",
     "icon": "medium.svg",
     "title": "Avoid Runtime Errors with Optionals",
-    "links": [{
-      "text": "Read more",
-      "url": "https://medium.com/@fabianboeller/avoid-runtime-errors-with-optionals-f1d6b690dcf5"
-    }],
+    "links": [
+      {
+        "text": "Read more",
+        "url": "https://medium.com/@fabianboeller/avoid-runtime-errors-with-optionals-f1d6b690dcf5"
+      }
+    ],
     "excerpt": "Null is bad for representing the absence of a value, use Optionals instead. Use Optional.flatMap to chain multiple operations that might not return a value."
   },
   {
     "type": "Stack Overflow Answer",
     "icon": "stack-overflow.svg",
     "title": "Using Java 8 to convert a list of objects into a string",
-    "links": [{
-      "text": "View answer",
-      "url": "https://stackoverflow.com/questions/24882927/using-java-8-to-convert-a-list-of-objects-into-a-string-obtained-from-the-tostri/24884212#24884212"
-    }],
+    "links": [
+      {
+        "text": "View answer",
+        "url": "https://stackoverflow.com/questions/24882927/using-java-8-to-convert-a-list-of-objects-into-a-string-obtained-from-the-tostri/24884212#24884212"
+      }
+    ],
     "excerpt": "There are a lot of useful new things in Java 8. E.g., I can iterate with a stream over a list of objects and then sum the values from a specific field of the Object's instances. Thus, I'm asking if there is any way to build a String that concatenates the output of the toString() method from the instances in a single line."
+  },
+  {
+    "type": "Meetup Talk",
+    "icon": "meetup.png",
+    "title": "Component Testing in Java",
+    "links": [
+      {
+        "text": "View sources",
+        "url": "https://github.com/fboeller/component-testing-example-java"
+      },
+      {
+        "text": "View event",
+        "url": "https://www.meetup.com/Bonn-Code/events/268598662/"
+      }
+    ],
+    "excerpt": "The ability to test a micro service in isolation is an integral part of a fast and independent release cycle. In this live coding session, I'll share how we set up isolated test cases for a real world microservice. We'll explore how to spin up a PostgresQL database with testcontainers and what issues you might run into. We'll discuss other external dependencies of a micro service and how and to what degree you can test these."
   }
 ]
