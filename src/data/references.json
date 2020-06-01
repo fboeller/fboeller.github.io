@@ -8,5 +8,10 @@
     "title": "Avoid Runtime Errors with Optionals",
     "url": "https://medium.com/@fabianboeller/avoid-runtime-errors-with-optionals-f1d6b690dcf5",
     "excerpt": "Null is bad for representing the absence of a value, use Optionals instead. Use Optional.flatMap to chain multiple operations that might not return a value."
+  },
+  {
+    "title": "Using Java 8 to convert a list of objects into a string",
+    "url": "https://stackoverflow.com/questions/24882927/using-java-8-to-convert-a-list-of-objects-into-a-string-obtained-from-the-tostri/24884212#24884212",
+    "excerpt": "There are a lot of useful new things in Java 8. E.g., I can iterate with a stream over a list of objects and then sum the values from a specific field of the Object's instances. Thus, I'm asking if there is any way to build a String that concatenates the output of the toString() method from the instances in a single line."
   }
 ]

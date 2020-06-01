@@ -4,7 +4,7 @@
     <div class="clear-both"></div>
     <StackSection :stacks="stacks" class="my-8" />
     <RoleTimeline :roles="roles" class="my-8" />
-    <ReferenceGrid :articles="articles" class="my-8" />
+    <ReferenceGrid :references="references" class="my-8" />
   </div>
 </template>
 
@@ -15,7 +15,7 @@ import RoleTimeline from "./components/timeline/RoleTimeline.vue";
 import ReferenceGrid from "./components/reference-grid/ReferenceGrid.vue";
 import stacks from "./data/stacks.json";
 import roles from "./data/roles.json";
-import articles from "./data/articles.json";
+import references from "./data/references.json";
 
 export default {
   name: "App",
@@ -23,7 +23,7 @@ export default {
     return {
       stacks,
       roles,
-      articles
+      references
     };
   },
   components: {
