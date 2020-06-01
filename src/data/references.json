@@ -37,6 +37,10 @@
         "url": "https://github.com/fboeller/fboeller.github.io"
       }
     ],
+    "tools": [
+      { "text": "Vue.js", "image": "icons/vue-js.svg", "url": "https://vuejs.org/" },
+      { "text": "Tailwind", "image": "icons/tailwindcss.png", "url": "https://tailwindcss.com/" }
+    ],
     "excerpt": "My personal resume that you are currently viewing."
   },
   {

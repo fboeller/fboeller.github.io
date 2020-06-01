@@ -10,6 +10,7 @@
     </div>
     <h3 class="my-3 text-lg">{{ reference.title }}</h3>
     <p class="overflow-y-scroll">{{ reference.excerpt }}</p>
+    <ToolList v-if="reference.tools" :tools="reference.tools" class="mt-5" />
     <div class="mt-auto">
       <div class="float-right mt-3">
         <a
@@ -25,8 +26,13 @@
 </template>
 
 <script>
+import ToolList from "../ToolList.vue";
+
 export default {
   name: "ReferenceElement",
+  components: {
+    ToolList
+  },
   props: {
     reference: Object
   }
