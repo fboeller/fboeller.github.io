@@ -1,7 +1,7 @@
 <template>
   <div>
-    <RoleSection :roles="roles" :activeTarget="activeTarget" class="my-8" />
-    <Timeline @activeTarget="activeTarget = $event" class="my-8" />
+    <RoleSection :roles="roles" :activeTarget="activeTarget" class="my-4 md:my-8" />
+    <Timeline @activeTarget="activeTarget = $event" class="my-4 md:my-8" />
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col flex-no-wrap justify-start bg-blue h-72 rounded-lg shadow-md p-6 text-white"
+    class="flex flex-col flex-no-wrap justify-start bg-blue h-72 rounded-lg shadow-md p-4 sm:p-6 text-white"
   >
     <div>
       <div class="h-12 w-12 inline-block align-middle">
