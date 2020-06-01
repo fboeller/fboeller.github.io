@@ -1,7 +1,6 @@
 <template>
   <div id="app" class="container mx-auto px-6 leading-snug overflow-hidden">
-    <Header />
-    <div class="clear-both"></div>
+    <Header class="my-8" />
     <StackSection :stacks="stacks" class="my-8" />
     <RoleTimeline :roles="roles" class="my-8" />
     <ReferenceGrid :references="references" class="my-8" />
