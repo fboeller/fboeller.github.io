@@ -1,9 +1,9 @@
 <template>
-  <div id="timeline h-64">
+  <div>
     <div class="indent w-9/12"></div>
     <TimelineBlock
-      size="w-3/12"
-      :active="lastClickTarget === 5 || hoverTarget === 5"
+      class="w-3/12 mb-3"
+      :active="activeTarget === 5"
       @click="lastClickTarget = 5"
       @mouseover="hoverTarget = 5"
       @mouseleave="hoverTarget = null"
@@ -11,8 +11,8 @@
     <div class="clear-both"></div>
     <div class="indent w-4/12"></div>
     <TimelineBlock
-      size="w-5/12"
-      :active="lastClickTarget === 2 || hoverTarget === 2"
+      class="w-5/12 mb-3"
+      :active="activeTarget === 2"
       @click="lastClickTarget = 2"
       @mouseover="hoverTarget = 2"
       @mouseleave="hoverTarget = null"
@@ -20,32 +20,32 @@
     <div class="clear-both"></div>
     <div class="indent w-5/12"></div>
     <TimelineBlock
-      size="w-1/12"
-      :active="lastClickTarget === 3 || hoverTarget === 3"
+      class="w-1/12 mb-3"
+      :active="activeTarget === 3"
       @click="lastClickTarget = 3"
       @mouseover="hoverTarget = 3"
       @mouseleave="hoverTarget = null"
     />
     <div class="indent w-1/12"></div>
     <TimelineBlock
-      size="w-2/12"
-      :active="lastClickTarget === 4 || hoverTarget === 4"
+      class="w-2/12 mb-3"
+      :active="activeTarget === 4"
       @click="lastClickTarget = 4"
       @mouseover="hoverTarget = 4"
       @mouseleave="hoverTarget = null"
     />
     <div class="clear-both"></div>
     <TimelineBlock
-      size="w-4/12"
-      :active="lastClickTarget === 1 || hoverTarget === 1"
+      class="w-4/12 mb-3"
+      :active="activeTarget === 1"
       @click="lastClickTarget = 1"
       @mouseover="hoverTarget = 1"
       @mouseleave="hoverTarget = null"
     />
     <div class="clear-both"></div>
     <TimelineBlock
-      size="w-4/12"
-      :active="lastClickTarget === 0 || hoverTarget === 0"
+      class="w-4/12"
+      :active="activeTarget === 0"
       @click="lastClickTarget = 0"
       @mouseover="hoverTarget = 0"
       @mouseleave="hoverTarget = null"
@@ -68,16 +68,19 @@ export default {
       hoverTarget: null
     };
   },
+  props: {
+    activeTarget: Number
+  },
   computed: {
-    activeTarget: function() {
+    activeTargetSelected: function() {
       return this.hoverTarget !== null
         ? this.hoverTarget
         : this.lastClickTarget;
     }
   },
   watch: {
-    activeTarget: function(value) {
-      this.$emit("activeTarget", value);
+    activeTargetSelected: function(value) {
+      this.$emit("activeTargetSelected", value);
     }
   }
 };

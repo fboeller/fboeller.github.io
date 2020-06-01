@@ -1,7 +1,7 @@
 <template>
   <div
-    class="block rounded-full h-8 mb-3 float-left cursor-pointer"
-    :class="{ active: active, inactive: !active, [size]: true }"
+    class="block rounded-full h-8 float-left cursor-pointer"
+    :class="{ active: active, inactive: !active }"
     @click="$emit('click')"
     @mouseover="$emit('mouseover')"
     @mouseleave="$emit('mouseleave')"
@@ -12,8 +12,7 @@
 export default {
   name: "TimelineBlock",
   props: {
-    active: Boolean,
-    size: String
+    active: Boolean
   }
 };
 </script>
