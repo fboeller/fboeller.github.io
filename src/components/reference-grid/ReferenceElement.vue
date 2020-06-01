@@ -11,11 +11,15 @@
     <h3 class="my-3 text-lg">{{ reference.title }}</h3>
     <p class="overflow-y-scroll">{{ reference.excerpt }}</p>
     <div class="mt-auto">
-      <a
-        :href="reference.url"
-        target="_blank"
-        class="float-right text-lg tracking-wider font-bold py-1 px-3 -mb-1 rounded-lg mt-3 hover:bg-blue-lighter"
-      >Read more</a>
+      <div class="float-right mt-3">
+        <a
+          v-for="link in reference.links"
+          :key="link.url"
+          :href="link.url"
+          target="_blank"
+          class="text-lg tracking-wider font-bold py-1 px-3 -mb-1 rounded-lg hover:bg-blue-lighter"
+        >{{ link.text }}</a>
+      </div>
     </div>
   </div>
 </template>
