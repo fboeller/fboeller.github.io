@@ -1,20 +1,18 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <MediumArticle :article="references[0]" />
-    <MediumArticle :article="references[1]" />
-    <StackOverflowAnswer :answer="references[2]" />
+    <ReferenceElement :reference="references[0]" />
+    <ReferenceElement :reference="references[1]" />
+    <ReferenceElement :reference="references[2]" />
   </div>
 </template>
 
 <script>
-import MediumArticle from "./MediumArticle.vue";
-import StackOverflowAnswer from "./StackOverflowAnswer.vue";
+import ReferenceElement from "./ReferenceElement.vue";
 
 export default {
   name: "ReferenceGrid",
   components: {
-    MediumArticle,
-    StackOverflowAnswer
+    ReferenceElement
   },
   props: {
     references: Array

@@ -4,15 +4,15 @@
   >
     <div>
       <div class="h-12 w-12 inline-block align-middle">
-        <img :src="require(`@/assets/icons/medium.svg`)" class="h-full w-full" />
+        <img :src="require(`@/assets/icons/${reference.icon}`)" class="h-full w-full" />
       </div>
-      <p class="text-gray-300 ml-3 inline-block">Medium Article</p>
+      <p class="text-gray-300 ml-3 inline-block">{{ reference.type }}</p>
     </div>
-    <h3 class="my-3 text-lg">{{ article.title }}</h3>
-    <p class="overflow-y-scroll">{{ article.excerpt }}</p>
+    <h3 class="my-3 text-lg">{{ reference.title }}</h3>
+    <p class="overflow-y-scroll">{{ reference.excerpt }}</p>
     <div class="mt-auto">
       <a
-        :href="article.url"
+        :href="reference.url"
         target="_blank"
         class="float-right text-lg tracking-wider font-bold py-1 px-3 -mb-1 rounded-lg mt-3 hover:bg-blue-lighter"
       >Read more</a>
@@ -22,9 +22,9 @@
 
 <script>
 export default {
-  name: "MediumArticle",
+  name: "ReferenceElement",
   props: {
-    article: Object
+    reference: Object
   }
 };
 </script>
