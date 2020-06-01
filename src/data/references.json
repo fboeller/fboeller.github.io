@@ -50,5 +50,21 @@
       }
     ],
     "excerpt": "The ability to test a micro service in isolation is an integral part of a fast and independent release cycle. In this live coding session, I'll share how we set up isolated test cases for a real world microservice. We'll explore how to spin up a PostgresQL database with testcontainers and what issues you might run into. We'll discuss other external dependencies of a micro service and how and to what degree you can test these."
+  },
+  {
+    "type": "Talk",
+    "icon": "github.svg",
+    "title": "Functional idioms with Java",
+    "links": [
+      {
+        "text": "View sources",
+        "url": "https://github.com/fboeller/functional-idioms-with-java"
+      },
+      {
+        "text": "View slides",
+        "url": "https://github.com/fboeller/functional-idioms-with-java/blob/master/presentation.pdf"
+      }
+    ],
+    "excerpt": "With requirements on throughput and scalability, object-oriented programs become increasingly difficult to maintain. Functional programming idioms make it into the object-oriented world aiming to address this problem."
   }
 ]
