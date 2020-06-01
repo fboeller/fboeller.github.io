@@ -7,7 +7,7 @@
         <a :href="role.url" target="_blank">
           <img
             :src="require(`@/assets/${role.image}`)"
-            class="h-full"
+            class="h-full rounded-lg"
             :class="role.imageClasses"
           />
         </a>

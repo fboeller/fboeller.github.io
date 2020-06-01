@@ -4,7 +4,7 @@
   >
     <div>
       <div class="h-12 w-12 inline-block align-middle">
-        <img :src="require(`@/assets/icons/${reference.icon}`)" class="h-full w-full" />
+        <img :src="require(`@/assets/icons/${reference.icon}`)" class="h-full w-full rounded-lg" />
       </div>
       <p class="text-gray-300 ml-3 inline-block">{{ reference.type }}</p>
     </div>
