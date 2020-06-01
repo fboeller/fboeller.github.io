@@ -66,5 +66,17 @@
       }
     ],
     "excerpt": "With requirements on throughput and scalability, object-oriented programs become increasingly difficult to maintain. Functional programming idioms make it into the object-oriented world aiming to address this problem."
+  },
+  {
+    "type": "Project",
+    "icon": "github.svg",
+    "title": "fboeller.github.io",
+    "links": [
+      {
+        "text": "View sources",
+        "url": "https://github.com/fboeller/fboeller.github.io"
+      }
+    ],
+    "excerpt": "My personal resume that you are currently viewing."
   }
 ]
