@@ -10,27 +10,28 @@
       </div>
     </div>
     <div class="my-auto w-30">
-      <a
-        class="rounded-lg pl-1 pr-4 py-1 bg-blue shadow-md cursor-pointer inline-block hover:border-opacity-100 border-opacity-0 border border-gray-300 border-solid"
-        :href="link"
-      >
-        <div class="h-12 w-12 inline-block align-middle">
-          <img :src="require(`@/assets/icons/${icon}`)" class="h-full w-full rounded-lg" />
-        </div>
-        <p class="ml-3 inline-block">{{ text }}</p>
-      </a>
+      <SocialLink v-for="link of links" :key="link.url" :link="link" />
     </div>
   </header>
 </template>
 
 <script>
+import SocialLink from "./SocialLink.vue";
+
 export default {
   name: "Header",
+  components: {
+    SocialLink
+  },
   data: function() {
     return {
-      text: "fboeller",
-      icon: "github.svg",
-      link: "https://github.com/fboeller"
+      links: [
+        {
+          text: "fboeller",
+          icon: "github.svg",
+          url: "https://github.com/fboeller"
+        }
+      ]
     };
   }
 };
