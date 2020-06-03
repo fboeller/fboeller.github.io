@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="my-auto w-30 grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4">
-      <SocialLink v-for="link of links" :key="link.url" :link="link" />
+      <SocialLink v-for="link of socialLinks" :key="link.url" :link="link" />
     </div>
   </header>
 </template>
@@ -23,36 +23,8 @@ export default {
   components: {
     SocialLink
   },
-  data: function() {
-    return {
-      links: [
-        {
-          text: "fboeller",
-          icon: "github.svg",
-          url: "https://github.com/fboeller"
-        },
-        {
-          text: "fabianboeller",
-          icon: "linkedin.png",
-          url: "https://www.linkedin.com/in/fabianboeller/"
-        },
-        {
-          text: "@fabianboeller",
-          icon: "medium.svg",
-          url: "https://medium.com/@fabianboeller"
-        },
-        {
-          text: "Fabian Böller",
-          icon: "meetup.png",
-          url: "https://www.meetup.com/members/258109056/"
-        },
-        {
-          text: "F. Böller",
-          icon: "stack-overflow.svg",
-          url: "https://stackoverflow.com/users/3699131/f-b%c3%b6ller"
-        }
-      ]
-    };
+  props: {
+    socialLinks: Array
   }
 };
 </script>

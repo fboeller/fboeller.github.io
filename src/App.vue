@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container mx-auto px-4 sm:px-8 leading-snug overflow-hidden">
-    <Header class="my-4 sm:my-8" />
+    <Header :socialLinks="socialLinks" class="my-4 sm:my-8" />
     <StackSection :stacks="stacks" class="my-4 sm:my-8" />
     <RoleTimeline :roles="roles" class="my-4 sm:my-8" />
     <ReferenceGrid :references="references" class="my-4 sm:my-8" />
@@ -15,6 +15,7 @@ import StackSection from "./components/StackSection.vue";
 import RoleTimeline from "./components/timeline/RoleTimeline.vue";
 import ReferenceGrid from "./components/reference-grid/ReferenceGrid.vue";
 import stacks from "./data/stacks.json";
+import socialLinks from "./data/social-links.json";
 import roles from "./data/roles.json";
 import references from "./data/references.json";
 
@@ -23,6 +24,7 @@ export default {
   data: function() {
     return {
       stacks,
+      socialLinks,
       roles,
       references
     };
