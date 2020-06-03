@@ -3,9 +3,11 @@
     class="flex flex-col flex-no-wrap justify-start bg-blue h-84 rounded-lg shadow-md p-4 sm:p-6 text-white"
   >
     <div>
-      <div class="h-12 w-12 inline-block align-middle">
-        <img :src="require(`@/assets/icons/${reference.icon}`)" class="h-full w-full rounded-lg" />
-      </div>
+      <a :href="reference.links[reference.links.length - 1].url">
+        <div class="h-12 w-12 inline-block align-middle">
+          <img :src="require(`@/assets/icons/${reference.icon}`)" class="h-full w-full rounded-lg" />
+        </div>
+      </a>
       <p class="text-gray-300 ml-3 inline-block">{{ reference.type }}</p>
     </div>
     <h3 class="my-3 text-lg">{{ reference.title }}</h3>
