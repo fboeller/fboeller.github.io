@@ -1,9 +1,11 @@
 <template>
-  <a :href="tool.url" target="_blank" class="h-8 w-32">
-    <div class="h-8 w-8 inline-block align-middle rounded-lg" :class="tool.imageClasses">
-      <img :src="require(`@/assets/${tool.image}`)" class="h-full w-full rounded-lg" />
-    </div>
-    <span class="ml-2">{{ tool.text }}</span>
+  <a :href="tool.url" target="_blank" class="relative inline-block h-8 w-32">
+    <img
+      :src="require(`@/assets/${tool.image}`)"
+      class="inline h-8 w-8 rounded-lg"
+      :class="tool.imageClasses"
+    />
+    <p class="absolute">{{ tool.text }}</p>
   </a>
 </template>
 
@@ -15,3 +17,11 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+a p {
+  left: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+</style>
