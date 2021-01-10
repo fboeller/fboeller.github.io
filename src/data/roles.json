@@ -77,11 +77,11 @@
     "image": "companies/leikon.jpg",
     "highlights": [
       {
-        "text": "Development of web-based visualization software",
+        "text": "Web-based visualization software",
         "chips": ["Grafana", "Angular"]
       },
       {
-        "text": "Development of Eclipse-Plugins",
+        "text": "Eclipse-Plugins",
         "chips": ["Java"]
       },
       {
@@ -99,11 +99,11 @@
     "image": "companies/leanix.svg",
     "highlights": [
       {
-        "text": "Conception and development of the Integration API",
+        "text": "API for the integration of external systems via scheduled runs",
         "chips": ["Java", "Vavr", "Kubernetes"]
       },
       {
-        "text": "Fullstack development of the quick search",
+        "text": "Type-ahead search with constant response times <500ms",
         "chips": ["Java", "Elasticsearch", "Angular"]
       }
     ]
