@@ -12,8 +12,8 @@
     </div>
     <h3 class="my-3 text-lg">{{ reference.title }}</h3>
     <p class="overflow-y-auto">{{ reference.excerpt }}</p>
-    <ToolList v-if="reference.tools" :tools="reference.tools" class="mt-5" />
-    <div class="mt-auto">
+    <ToolList v-if="reference.tools" :tools="reference.tools" class="mt-auto" />
+    <div class="mt-3">
       <div class="float-right mt-3">
         <a
           v-for="link in reference.links"
