@@ -1,5 +1,39 @@
 [
   {
+    "type": "Project",
+    "icon": "github.svg",
+    "title": "Jyfti",
+    "links": [
+      {
+        "text": "View docs",
+        "url": "https://jyfti.github.io/jyfti/"
+      },
+      {
+        "text": "View sources",
+        "url": "https://github.com/jyfti/jyfti"
+      }
+    ],
+    "tools": [
+      {
+        "text": "Node.js",
+        "image": "icons/nodejs.svg",
+        "imageClasses": ["bg-white", "px-1"],
+        "url": "https://nodejs.org/en/docs/"
+      },
+      {
+        "text": "Typescript",
+        "image": "icons/typescript.svg",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "text": "RxJS",
+        "image": "icons/reactivex.svg",
+        "url": "https://www.learnrxjs.io/"
+      }
+    ],
+    "excerpt": "The workflow engine for software engineers"
+  },
+  {
     "type": "Medium Article",
     "icon": "medium.svg",
     "title": "Pattern Matching vs. Polymorphism",
@@ -10,6 +44,30 @@
       }
     ],
     "excerpt": "Subtype polymorphism is great for adding more entity types. Pattern matching is a better choice for adding more functionality. In this article, we implement a program based on a set of requirements. First, using subtype polymorphism, then using pattern matching."
+  },
+  {
+    "type": "Project",
+    "icon": "github.svg",
+    "title": "ngx-elements-router",
+    "links": [
+      {
+        "text": "View sources",
+        "url": "https://github.com/fboeller/ngx-elements-router"
+      }
+    ],
+    "tools": [
+      {
+        "text": "Angular",
+        "image": "icons/angularjs.svg",
+        "url": "https://angular.io/"
+      },
+      {
+        "text": "Typescript",
+        "image": "icons/typescript.svg",
+        "url": "https://www.typescriptlang.org/"
+      }
+    ],
+    "excerpt": "An Angular module to enable the usage of the router module within Angular projects defining custom elements."
   },
   {
     "type": "Meetup Talk",
@@ -38,8 +96,16 @@
       }
     ],
     "tools": [
-      { "text": "Vue.js", "image": "icons/vue-js.svg", "url": "https://vuejs.org/" },
-      { "text": "Tailwind", "image": "icons/tailwindcss.png", "url": "https://tailwindcss.com/" }
+      {
+        "text": "Vue.js",
+        "image": "icons/vue-js.svg",
+        "url": "https://vuejs.org/"
+      },
+      {
+        "text": "Tailwind",
+        "image": "icons/tailwindcss.png",
+        "url": "https://tailwindcss.com/"
+      }
     ],
     "excerpt": "My personal resume that you are currently viewing."
   },
