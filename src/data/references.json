@@ -43,7 +43,20 @@
         "url": "https://medium.com/better-programming/pattern-matching-vs-polymorphism-ce0441fbfcda"
       }
     ],
-    "excerpt": "Subtype polymorphism is great for adding more entity types. Pattern matching is a better choice for adding more functionality. In this article, we implement a program based on a set of requirements. First, using subtype polymorphism, then using pattern matching."
+    "tools": [
+      {
+        "text": "Java",
+        "image": "icons/java.svg",
+        "imageClasses": ["bg-white", "px-2"],
+        "url": "https://openjdk.java.net/"
+      },
+      {
+        "text": "Kotlin",
+        "image": "icons/kotlin.svg",
+        "url": "https://kotlinlang.org/"
+      }
+    ],
+    "excerpt": "Subtype polymorphism is great for adding more entity types. Pattern matching is a better choice for adding more functionality. In this article, we explore both approaches."
   },
   {
     "type": "Project",
@@ -83,7 +96,20 @@
         "url": "https://www.meetup.com/Bonn-Code/events/268598662/"
       }
     ],
-    "excerpt": "The ability to test a micro service in isolation is an integral part of a fast and independent release cycle. In this live coding session, I shared how we set up isolated test cases for a real world microservice."
+    "tools": [
+      {
+        "text": "Java",
+        "image": "icons/java.svg",
+        "imageClasses": ["bg-white", "px-2"],
+        "url": "https://openjdk.java.net/"
+      },
+      {
+        "text": "Testcontainers",
+        "image": "icons/testcontainers.png",
+        "url": "https://www.testcontainers.org/"
+      }
+    ],
+    "excerpt": "The ability to test a micro service in isolation is an integral part of a fast release cycle. In this talk, I shared how we set up isolated test cases for a real world microservice."
   },
   {
     "type": "Project",
@@ -123,7 +149,15 @@
         "url": "https://github.com/fboeller/functional-idioms-with-java/blob/master/presentation.pdf"
       }
     ],
-    "excerpt": "With requirements on throughput and scalability, object-oriented programs become increasingly difficult to maintain. Functional programming idioms make it into the object-oriented world aiming to address this problem."
+    "tools": [
+      {
+        "text": "Java",
+        "image": "icons/java.svg",
+        "imageClasses": ["bg-white", "px-2"],
+        "url": "https://openjdk.java.net/"
+      }
+    ],
+    "excerpt": "With requirements on throughput and scalability, object-oriented programs become difficult to maintain. Functional programming idioms aim to address this problem."
   },
   {
     "type": "Stack Overflow Answer",
@@ -133,6 +167,14 @@
       {
         "text": "View answer",
         "url": "https://stackoverflow.com/questions/24882927/using-java-8-to-convert-a-list-of-objects-into-a-string-obtained-from-the-tostri/24884212#24884212"
+      }
+    ],
+    "tools": [
+      {
+        "text": "Java",
+        "image": "icons/java.svg",
+        "imageClasses": ["bg-white", "px-2"],
+        "url": "https://openjdk.java.net/"
       }
     ],
     "excerpt": "Is there a way to build a string that concatenates the output of calls to the toString() method from the instances of a list in a single line?"
@@ -145,6 +187,14 @@
       {
         "text": "Read more",
         "url": "https://medium.com/@fabianboeller/avoid-runtime-errors-with-optionals-f1d6b690dcf5"
+      }
+    ],
+    "tools": [
+      {
+        "text": "Java",
+        "image": "icons/java.svg",
+        "imageClasses": ["bg-white", "px-2"],
+        "url": "https://openjdk.java.net/"
       }
     ],
     "excerpt": "Null is bad for representing the absence of a value, use Optionals instead. Use Optional.flatMap to chain multiple operations that might not return a value."
