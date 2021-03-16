@@ -2,6 +2,7 @@
   {
     "type": "Project",
     "icon": "github.svg",
+    "alt": "GitHub",
     "title": "Jyfti",
     "links": [
       {
@@ -36,6 +37,7 @@
   {
     "type": "Medium Article",
     "icon": "medium.svg",
+    "alt": "Medium",
     "title": "Pattern Matching vs. Polymorphism",
     "links": [
       {
@@ -61,6 +63,7 @@
   {
     "type": "Project",
     "icon": "github.svg",
+    "alt": "GitHub",
     "title": "ngx-elements-router",
     "links": [
       {
@@ -85,6 +88,7 @@
   {
     "type": "Meetup Talk",
     "icon": "meetup.png",
+    "alt": "Meetup",
     "title": "Component Testing in Java",
     "links": [
       {
@@ -114,6 +118,7 @@
   {
     "type": "Project",
     "icon": "github.svg",
+    "alt": "GitHub",
     "title": "fboeller.github.io",
     "links": [
       {
@@ -138,6 +143,7 @@
   {
     "type": "Talk",
     "icon": "github.svg",
+    "alt": "GitHub",
     "title": "Functional Idioms with Java",
     "links": [
       {
@@ -162,6 +168,7 @@
   {
     "type": "Stack Overflow Answer",
     "icon": "stack-overflow.svg",
+    "alt": "Stack Overflow",
     "title": "Using Java 8 to convert a list into a string",
     "links": [
       {
@@ -182,6 +189,7 @@
   {
     "type": "Medium Article",
     "icon": "medium.svg",
+    "alt": "Medium",
     "title": "Avoid Runtime Errors with Optionals",
     "links": [
       {
