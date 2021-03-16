@@ -5,7 +5,11 @@
     <div>
       <a :href="reference.links[reference.links.length - 1].url">
         <div class="h-12 w-12 inline-block align-middle">
-          <img :src="require(`@/assets/icons/${reference.icon}`)" :alt="reference.alt + ' Logo'" class="h-full w-full rounded-lg" />
+          <img
+            :src="require(`@/assets/icons/${reference.icon}`)"
+            :alt="reference.alt + ' Logo'"
+            class="h-full w-full rounded-lg"
+          />
         </div>
       </a>
       <p class="text-gray-300 ml-3 inline-block">{{ reference.type }}</p>
@@ -20,8 +24,10 @@
           :key="link.url"
           :href="link.url"
           target="_blank"
+          rel="noopener"
           class="text-lg tracking-wider font-bold py-1 px-3 -mb-1 rounded-lg hover:bg-blue-lighter"
-        >{{ link.text }}</a>
+          >{{ link.text }}</a
+        >
       </div>
     </div>
   </div>
@@ -33,10 +39,10 @@ import ToolList from "../ToolList.vue";
 export default {
   name: "ReferenceElement",
   components: {
-    ToolList
+    ToolList,
   },
   props: {
-    reference: Object
-  }
+    reference: Object,
+  },
 };
 </script>

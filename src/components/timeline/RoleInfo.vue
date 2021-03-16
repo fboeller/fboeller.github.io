@@ -4,7 +4,7 @@
   >
     <div>
       <div class="h-12 mb-4">
-        <a :href="role.url" target="_blank">
+        <a :href="role.url" target="_blank" rel="noopener">
           <img
             :src="require(`@/assets/${role.image}`)"
             :alt="role.organization + ' Logo'"
