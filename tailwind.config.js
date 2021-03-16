@@ -10,7 +10,7 @@ module.exports = {
         blue: {
           darker: "#044965",
           default: "#05668D",
-          lighter: "#0093A6"
+          lighter: "#018293"
         }
       },
       spacing: {
