@@ -42,8 +42,7 @@
             py-1
             px-3
             -mb-1
-            rounded-lg
-            hover:bg-blue-lighter
+            hover:underline
           "
           >{{ link.text }}</a
         >
