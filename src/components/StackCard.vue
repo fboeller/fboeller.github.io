@@ -22,9 +22,7 @@ export default {
   },
   computed: {
     stackTools: function () {
-      return this.stack.tools.map(
-        (tool) => this.tools[tool.text] ?? { text: tool.text }
-      );
+      return this.stack.tools.map((tool) => this.tools[tool] ?? { text: tool });
     },
   },
 };
