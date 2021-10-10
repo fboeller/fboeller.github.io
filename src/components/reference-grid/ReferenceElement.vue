@@ -26,7 +26,7 @@
     </div>
     <h3 class="my-3 text-lg">{{ reference.title }}</h3>
     <p class="overflow-y-auto">{{ reference.excerpt }}</p>
-    <ToolList v-if="reference.tools" :tools="reference.tools" class="mt-auto" />
+    <ToolList v-if="reference.tools" :tools="referenceTools" class="mt-auto" />
     <div class="mt-3">
       <div class="float-right mt-3">
         <a
@@ -61,6 +61,14 @@ export default {
   },
   props: {
     reference: Object,
+    tools: Object,
+  },
+  computed: {
+    referenceTools: function () {
+      return this.reference.tools.map(
+        (tool) => this.tools[tool.text] ?? { text: tool.text }
+      );
+    },
   },
 };
 </script>

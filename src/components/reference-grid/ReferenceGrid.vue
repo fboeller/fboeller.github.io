@@ -4,6 +4,7 @@
       v-for="reference in references"
       :key="reference.title"
       :reference="reference"
+      :tools="tools"
     />
   </div>
 </template>
@@ -14,10 +15,11 @@ import ReferenceElement from "./ReferenceElement.vue";
 export default {
   name: "ReferenceGrid",
   components: {
-    ReferenceElement
+    ReferenceElement,
   },
   props: {
-    references: Array
-  }
+    references: Array,
+    tools: Object,
+  },
 };
 </script>

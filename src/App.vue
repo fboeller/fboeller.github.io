@@ -4,7 +4,11 @@
     class="container mx-auto px-4 sm:px-8 leading-snug overflow-hidden"
   >
     <Header :socialLinks="socialLinks" class="my-4 sm:my-8" />
-    <ReferenceGrid :references="references" class="my-4 sm:my-8" />
+    <ReferenceGrid
+      :references="references"
+      :tools="tools"
+      class="my-4 sm:my-8"
+    />
     <RoleTimeline :roles="roles" class="my-4 sm:my-8" />
     <StackSection :stacks="stacks" :tools="tools" class="my-4 sm:my-8" />
     <Footer class="my-4 sm:my-8" />
