@@ -35,7 +35,7 @@
     "excerpt": "The workflow engine for software engineers"
   },
   {
-    "type": "Medium Article",
+    "type": "Blog post",
     "icon": "medium.svg",
     "alt": "Medium",
     "title": "Pattern Matching vs. Polymorphism",
@@ -187,7 +187,7 @@
     "excerpt": "Is there a way to build a string that concatenates the output of calls to the toString() method from the instances of a list in a single line?"
   },
   {
-    "type": "Medium Article",
+    "type": "Blog post",
     "icon": "medium.svg",
     "alt": "Medium",
     "title": "Avoid Runtime Errors with Optionals",
@@ -206,5 +206,24 @@
       }
     ],
     "excerpt": "Null is bad for representing the absence of a value, use Optionals instead. Use Optional.flatMap to chain multiple operations that might not return a value."
+  },
+  {
+    "type": "Blog post",
+    "icon": "leanix.jpeg",
+    "alt": "LeanIX Blog",
+    "title": "Why TypeScript is awesome with SQL",
+    "links": [
+      {
+        "text": "Open article",
+        "url": "https://engineering.leanix.net/blog/typescript-sql-queries/"
+      }
+    ],
+    "tools": [
+      {
+        "text": "Typescript",
+        "image": "icons/typescript.svg"
+      }
+    ],
+    "excerpt": "Node.js with Typescript and SQL databases are a great combination. Typescript's type system captures query results precisely, working well with Knex' query builder."
   }
 ]

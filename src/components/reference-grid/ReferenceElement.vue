@@ -1,6 +1,16 @@
 <template>
   <div
-    class="flex flex-col flex-no-wrap justify-start bg-blue h-84 rounded-lg shadow-md p-4 sm:p-6 text-white"
+    class="
+      flex flex-col flex-no-wrap
+      justify-start
+      bg-blue
+      h-84
+      rounded-lg
+      shadow-md
+      p-4
+      sm:p-6
+      text-white
+    "
   >
     <div>
       <a :href="reference.links[reference.links.length - 1].url">
@@ -25,7 +35,16 @@
           :href="link.url"
           target="_blank"
           rel="noopener"
-          class="text-lg tracking-wider font-bold py-1 px-3 -mb-1 rounded-lg hover:bg-blue-lighter"
+          class="
+            text-lg
+            tracking-wider
+            font-bold
+            py-1
+            px-3
+            -mb-1
+            rounded-lg
+            hover:bg-blue-lighter
+          "
           >{{ link.text }}</a
         >
       </div>
