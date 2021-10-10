@@ -1,6 +1,19 @@
 <template>
   <a
-    class="relative lg:w-40 w-full rounded-lg pl-1 pr-4 py-1 bg-blue shadow-md cursor-pointer inline-block hover:border-opacity-100 border-opacity-0 border border-gray-300 border-solid"
+    class="
+      relative
+      lg:w-40
+      w-full
+      rounded-lg
+      pl-1
+      pr-4
+      py-1
+      bg-blue
+      shadow-md
+      cursor-pointer
+      inline-block
+      border-opacity-0 border border-gray-300 border-solid
+    "
     :href="link.url"
   >
     <img
@@ -26,5 +39,8 @@ a p {
   left: 45px;
   top: 50%;
   transform: translateY(-50%);
+}
+a:hover p {
+  text-decoration: underline;
 }
 </style>
