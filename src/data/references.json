@@ -14,24 +14,7 @@
         "url": "https://github.com/jyfti/jyfti"
       }
     ],
-    "tools": [
-      {
-        "text": "Node.js",
-        "image": "icons/nodejs.svg",
-        "imageClasses": ["bg-white", "px-1"],
-        "url": "https://nodejs.org/en/docs/"
-      },
-      {
-        "text": "Typescript",
-        "image": "icons/typescript.svg",
-        "url": "https://www.typescriptlang.org/"
-      },
-      {
-        "text": "RxJS",
-        "image": "icons/reactivex.svg",
-        "url": "https://www.learnrxjs.io/"
-      }
-    ],
+    "tools": ["Node.js", "Typescript", "RxJS"],
     "excerpt": "The workflow engine for software engineers"
   },
   {
@@ -45,19 +28,7 @@
         "url": "https://medium.com/better-programming/pattern-matching-vs-polymorphism-ce0441fbfcda"
       }
     ],
-    "tools": [
-      {
-        "text": "Java",
-        "image": "icons/java.svg",
-        "imageClasses": ["bg-white", "px-2"],
-        "url": "https://openjdk.java.net/"
-      },
-      {
-        "text": "Kotlin",
-        "image": "icons/kotlin.svg",
-        "url": "https://kotlinlang.org/"
-      }
-    ],
+    "tools": ["Java", "Kotlin"],
     "excerpt": "Subtype polymorphism is great for adding more entity types. Pattern matching is a better choice for adding more functionality. In this article, we explore both approaches."
   },
   {
@@ -71,18 +42,7 @@
         "url": "https://github.com/fboeller/ngx-elements-router"
       }
     ],
-    "tools": [
-      {
-        "text": "Angular",
-        "image": "icons/angularjs.svg",
-        "url": "https://angular.io/"
-      },
-      {
-        "text": "Typescript",
-        "image": "icons/typescript.svg",
-        "url": "https://www.typescriptlang.org/"
-      }
-    ],
+    "tools": ["Angular", "Typescript"],
     "excerpt": "An Angular module to enable the usage of the router module within Angular projects defining custom elements."
   },
   {
@@ -100,19 +60,7 @@
         "url": "https://www.meetup.com/Bonn-Code/events/268598662/"
       }
     ],
-    "tools": [
-      {
-        "text": "Java",
-        "image": "icons/java.svg",
-        "imageClasses": ["bg-white", "px-2"],
-        "url": "https://openjdk.java.net/"
-      },
-      {
-        "text": "Testcontainers",
-        "image": "icons/testcontainers.png",
-        "url": "https://www.testcontainers.org/"
-      }
-    ],
+    "tools": ["Java", "Testcontainers"],
     "excerpt": "The ability to test a micro service in isolation is an integral part of a fast release cycle. In this talk, I shared how we set up isolated test cases for a real world microservice."
   },
   {
@@ -126,18 +74,7 @@
         "url": "https://github.com/fboeller/fboeller.github.io"
       }
     ],
-    "tools": [
-      {
-        "text": "Vue.js",
-        "image": "icons/vue-js.svg",
-        "url": "https://vuejs.org/"
-      },
-      {
-        "text": "Tailwind",
-        "image": "icons/tailwindcss.png",
-        "url": "https://tailwindcss.com/"
-      }
-    ],
+    "tools": ["Vue.js", "Tailwind"],
     "excerpt": "My personal resume that you are currently viewing."
   },
   {
@@ -155,14 +92,7 @@
         "url": "https://github.com/fboeller/functional-idioms-with-java/blob/master/presentation.pdf"
       }
     ],
-    "tools": [
-      {
-        "text": "Java",
-        "image": "icons/java.svg",
-        "imageClasses": ["bg-white", "px-2"],
-        "url": "https://openjdk.java.net/"
-      }
-    ],
+    "tools": ["Java"],
     "excerpt": "With requirements on throughput and scalability, object-oriented programs become difficult to maintain. Functional programming idioms aim to address this problem."
   },
   {
@@ -176,14 +106,7 @@
         "url": "https://stackoverflow.com/questions/24882927/using-java-8-to-convert-a-list-of-objects-into-a-string-obtained-from-the-tostri/24884212#24884212"
       }
     ],
-    "tools": [
-      {
-        "text": "Java",
-        "image": "icons/java.svg",
-        "imageClasses": ["bg-white", "px-2"],
-        "url": "https://openjdk.java.net/"
-      }
-    ],
+    "tools": ["Java"],
     "excerpt": "Is there a way to build a string that concatenates the output of calls to the toString() method from the instances of a list in a single line?"
   },
   {
@@ -197,14 +120,7 @@
         "url": "https://medium.com/@fabianboeller/avoid-runtime-errors-with-optionals-f1d6b690dcf5"
       }
     ],
-    "tools": [
-      {
-        "text": "Java",
-        "image": "icons/java.svg",
-        "imageClasses": ["bg-white", "px-2"],
-        "url": "https://openjdk.java.net/"
-      }
-    ],
+    "tools": ["Java"],
     "excerpt": "Null is bad for representing the absence of a value, use Optionals instead. Use Optional.flatMap to chain multiple operations that might not return a value."
   },
   {
@@ -218,19 +134,7 @@
         "url": "https://engineering.leanix.net/blog/typescript-sql-queries/"
       }
     ],
-    "tools": [
-      {
-        "text": "Typescript",
-        "image": "icons/typescript.svg",
-        "url": "https://www.typescriptlang.org/"
-      },
-      {
-        "text": "Knex",
-        "image": "icons/knex.png",
-        "url": "https://knexjs.org/",
-        "imageClasses": ["bg-white", "p-1"]
-      }
-    ],
+    "tools": ["Typescript", "Knex"],
     "excerpt": "Node.js with Typescript and SQL databases are a great combination. Typescript's type system captures query results precisely, working well with Knex' query builder."
   }
 ]

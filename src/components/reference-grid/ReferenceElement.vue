@@ -66,7 +66,7 @@ export default {
   computed: {
     referenceTools: function () {
       return this.reference.tools.map(
-        (tool) => this.tools[tool.text] ?? { text: tool.text }
+        (tool) => this.tools[tool] ?? { text: tool }
       );
     },
   },
