@@ -221,11 +221,13 @@
     "tools": [
       {
         "text": "Typescript",
-        "image": "icons/typescript.svg"
+        "image": "icons/typescript.svg",
+        "url": "https://www.typescriptlang.org/"
       },
       {
         "text": "Knex",
         "image": "icons/knex.png",
+        "url": "https://knexjs.org/",
         "imageClasses": ["bg-white", "p-1"]
       }
     ],
