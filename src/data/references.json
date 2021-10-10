@@ -222,6 +222,11 @@
       {
         "text": "Typescript",
         "image": "icons/typescript.svg"
+      },
+      {
+        "text": "Knex",
+        "image": "icons/knex.png",
+        "imageClasses": ["bg-white", "p-1"]
       }
     ],
     "excerpt": "Node.js with Typescript and SQL databases are a great combination. Typescript's type system captures query results precisely, working well with Knex' query builder."
