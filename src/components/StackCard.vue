@@ -21,7 +21,7 @@ export default {
     tools: Object,
   },
   computed: {
-    stackTools: function () {
+    stackTools() {
       return this.stack.tools.map((tool) => this.tools[tool] ?? { text: tool });
     },
   },

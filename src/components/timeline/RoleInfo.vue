@@ -1,6 +1,17 @@
 <template>
   <div
-    class="md:grid md:grid-cols-2 md:gap-8 bg-blue h-full w-full p-4 md:p-6 rounded-lg shadow-md overflow-auto"
+    class="
+      md:grid md:grid-cols-2
+      md:gap-8
+      bg-blue
+      h-full
+      w-full
+      p-4
+      md:p-6
+      rounded-lg
+      shadow-md
+      overflow-auto
+    "
   >
     <div>
       <div class="h-12 mb-4">
@@ -22,15 +33,13 @@
     <div>
       <h3 class="text-2xl mb-4 mt-3">Highlights</h3>
       <div
-        v-for="highlight of role.highlights"
+        v-for="highlight of roleHighlights"
         :key="highlight.text"
         class="mb-3"
       >
-        <p class="mb-1">{{ highlight.text }}</p>
-        <div class="flex flex-wrap">
-          <span v-for="chip of highlight.chips" :key="chip" class="chip">{{
-            chip
-          }}</span>
+        <p class="mb-2">{{ highlight.text }}</p>
+        <div class="flex flex-wrap gap-4">
+          <Tool v-for="tool of highlight.tools" :key="tool.text" :tool="tool" />
         </div>
       </div>
     </div>
@@ -38,11 +47,27 @@
 </template>
 
 <script>
+import Tool from "../Tool.vue";
+
 export default {
   name: "RoleInfo",
+  components: {
+    Tool,
+  },
   props: {
-    role: Object
-  }
+    role: Object,
+    tools: Object,
+  },
+  computed: {
+    roleHighlights() {
+      return this.role.highlights.map((highlight) => ({
+        ...highlight,
+        tools: highlight.chips.map(
+          (chip) => this.tools[chip] ?? { text: chip }
+        ),
+      }));
+    },
+  },
 };
 </script>
 

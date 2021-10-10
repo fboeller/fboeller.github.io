@@ -104,7 +104,7 @@
       },
       {
         "text": "Type-ahead search with constant response times <500ms",
-        "chips": ["Java", "Elasticsearch", "Angular"]
+        "chips": ["Java", "Elastic", "Angular"]
       }
     ]
   }

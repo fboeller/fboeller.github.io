@@ -9,7 +9,7 @@
       :tools="tools"
       class="my-4 sm:my-8"
     />
-    <RoleTimeline :roles="roles" class="my-4 sm:my-8" />
+    <RoleTimeline :roles="roles" :tools="tools" class="my-4 sm:my-8" />
     <StackSection :stacks="stacks" :tools="tools" class="my-4 sm:my-8" />
     <Footer class="my-4 sm:my-8" />
   </div>
