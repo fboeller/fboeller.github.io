@@ -1,5 +1,10 @@
 <template>
-  <a :href="tool.url" target="_blank" rel="noopener" class="relative inline-block h-8 w-32">
+  <a
+    :href="tool.url"
+    target="_blank"
+    rel="noopener"
+    class="relative inline-block h-8 w-32"
+  >
     <img
       :src="require(`@/assets/${tool.image}`)"
       :alt="tool.text + ' Logo'"
@@ -14,8 +19,8 @@
 export default {
   name: "Tool",
   props: {
-    tool: Object
-  }
+    tool: Object,
+  },
 };
 </script>
 
@@ -24,5 +29,8 @@ a p {
   left: 45px;
   top: 50%;
   transform: translateY(-50%);
+}
+a:hover p {
+  text-decoration: underline;
 }
 </style>
