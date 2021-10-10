@@ -1,0 +1,106 @@
+{
+  "Java": {
+    "text": "Java",
+    "image": "icons/java.svg",
+    "imageClasses": ["bg-white", "px-2"],
+    "url": "https://openjdk.java.net/"
+  },
+  "Vue.js": {
+    "text": "Vue.js",
+    "image": "icons/vue-js.svg",
+    "url": "https://vuejs.org/"
+  },
+  "Tailwind": {
+    "text": "Tailwind",
+    "image": "icons/tailwindcss.png",
+    "url": "https://tailwindcss.com/"
+  },
+  "Typescript": {
+    "text": "Typescript",
+    "image": "icons/typescript.svg",
+    "url": "https://www.typescriptlang.org/"
+  },
+  "Knex": {
+    "text": "Knex",
+    "image": "icons/knex.png",
+    "url": "https://knexjs.org/",
+    "imageClasses": ["bg-white", "p-1"]
+  },
+  "Testcontainers": {
+    "text": "Testcontainers",
+    "image": "icons/testcontainers.png",
+    "url": "https://www.testcontainers.org/"
+  },
+  "Angular": {
+    "text": "Angular",
+    "image": "icons/angularjs.svg",
+    "url": "https://angular.io/"
+  },
+  "Kotlin": {
+    "text": "Kotlin",
+    "image": "icons/kotlin.svg",
+    "url": "https://kotlinlang.org/"
+  },
+  "RxJS": {
+    "text": "RxJS",
+    "image": "icons/reactivex.svg",
+    "url": "https://www.learnrxjs.io/"
+  },
+  "Ngrx": {
+    "text": "Ngrx",
+    "image": "icons/ngrx.svg",
+    "url": "https://ngrx.io/"
+  },
+  "Nginx": {
+    "text": "Nginx",
+    "image": "icons/nginx.svg",
+    "url": "https://nginx.org/"
+  },
+  "VSCode": {
+    "text": "VSCode",
+    "image": "icons/vscode.svg",
+    "url": "https://code.visualstudio.com/"
+  },
+  "Arrow": {
+    "text": "Arrow",
+    "image": "icons/arrow.svg",
+    "url": "https://arrow-kt.io/"
+  },
+  "Postgres": {
+    "text": "Postgres",
+    "image": "icons/postgres.svg",
+    "url": "https://www.postgresql.org/"
+  },
+  "IntelliJ": {
+    "text": "IntelliJ",
+    "image": "icons/intellij.svg",
+    "url": "https://www.jetbrains.com/idea/"
+  },
+  "Docker": {
+    "text": "Docker",
+    "image": "icons/docker.svg",
+    "url": "https://www.docker.com/"
+  },
+  "Kubernetes": {
+    "text": "Kubernetes",
+    "image": "icons/kubernetes.svg",
+    "imageClasses": ["bg-white"],
+    "url": "https://kubernetes.io/"
+  },
+  "Node.js": {
+    "text": "Node.js",
+    "image": "icons/nodejs.svg",
+    "imageClasses": ["bg-white", "px-1"],
+    "url": "https://nodejs.org/en/docs/"
+  },
+  "Express.js": {
+    "text": "Express.js",
+    "image": "icons/expressjs.png",
+    "url": "https://expressjs.com/"
+  },
+  "MongoDB": {
+    "text": "MongoDB",
+    "image": "icons/mongodb.svg",
+    "url": "https://www.mongodb.com/"
+  }
+}
