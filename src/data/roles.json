@@ -60,7 +60,7 @@
     "highlights": [
       {
         "text": "Assist in teaching of Programming fundamentals",
-        "chips": ["Java", "Python"]
+        "chips": ["Python", "Java"]
       },
       {
         "text": "Assist in teaching of Operating Systems",
@@ -81,10 +81,6 @@
         "chips": ["Grafana", "Angular"]
       },
       {
-        "text": "Eclipse-Plugins",
-        "chips": ["Java"]
-      },
-      {
         "text": "Integration with a serial bar code scanner",
         "chips": ["Python", "ReactiveX"]
       }
@@ -95,16 +91,20 @@
     "url": "https://www.leanix.net/en/",
     "position": "Senior Software Engineer",
     "description": "I am working as a senior software engineer at LeanIX. LeanIX builds software to enable companies to get and collaboratively maintain an overview of their IT landscape.",
-    "time": "July 2018 - present",
+    "time": "July 2018 - December 2021",
     "image": "companies/leanix.svg",
     "highlights": [
       {
-        "text": "API for the integration of external systems via scheduled runs",
-        "chips": ["Java", "Vavr", "Kubernetes"]
+        "text": "Type-ahead search with constant response times <500ms",
+        "chips": ["Typescript", "Angular", "Elastic"]
       },
       {
-        "text": "Type-ahead search with constant response times <500ms",
-        "chips": ["Java", "Elastic", "Angular"]
+        "text": "Searchable overview page of all system-wide reports",
+        "chips": ["Typescript", "Angular"]
+      },
+      {
+        "text": "API for the integration of external systems via scheduled runs",
+        "chips": ["Kubernetes", "Java", "Vavr"]
       }
     ]
   }
