@@ -46,6 +46,11 @@
     "image": "icons/reactivex.svg",
     "url": "https://www.learnrxjs.io/"
   },
+  "ReactiveX": {
+    "text": "ReactiveX",
+    "image": "icons/reactivex.svg",
+    "url": "http://reactivex.io/"
+  },
   "Ngrx": {
     "text": "Ngrx",
     "image": "icons/ngrx.svg",
@@ -102,5 +107,53 @@
     "text": "MongoDB",
     "image": "icons/mongodb.svg",
     "url": "https://www.mongodb.com/"
+  },
+  "C": {
+    "text": "C",
+    "image": "icons/c.png",
+    "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+  },
+  "C++": {
+    "text": "C++",
+    "image": "icons/c++.jpg",
+    "url": "https://en.wikipedia.org/wiki/C%2B%2B"
+  },
+  "Python": {
+    "text": "Python",
+    "image": "icons/python.png",
+    "url": "https://www.python.org/"
+  },
+  "Bash": {
+    "text": "Bash",
+    "image": "icons/bash.jpeg",
+    "url": "https://www.gnu.org/software/bash/"
+  },
+  "Arch": {
+    "text": "Arch",
+    "image": "icons/arch.png",
+    "url": "https://wiki.archlinux.org/title/Arch_Linux"
+  },
+  "Grafana": {
+    "text": "Grafana",
+    "image": "icons/grafana.jpg",
+    "url": "https://grafana.com/"
+  },
+  "OCaml": {
+    "text": "OCaml",
+    "image": "icons/ocaml.png",
+    "url": "https://ocaml.org/"
+  },
+  "Z3": {
+    "text": "Z3",
+    "url": "https://github.com/Z3Prover/z3"
+  },
+  "Elastic": {
+    "text": "Elastic",
+    "image": "icons/elastic.png",
+    "url": "https://github.com/elastic/elasticsearch"
+  },
+  "Vavr": {
+    "text": "Vavr",
+    "url": "https://www.vavr.io/"
   }
 }
