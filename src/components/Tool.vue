@@ -46,7 +46,7 @@ a p {
   top: 50%;
   transform: translateY(-50%);
 }
-a:hover p {
+a[href]:hover p {
   text-decoration: underline;
 }
 </style>
